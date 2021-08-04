@@ -14,6 +14,9 @@ Let's start with a simple python code.
 At Supervisely, we try to think **big** — so let's say hello to multiple worlds at once.
 
 
+<br/>  
+
+**src/main.py**
 ```
 worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
 
@@ -21,7 +24,7 @@ for world in worlds:
     print(f'Hello {world}!')
 
 ```
-
+<br/>
 
 ### Step 2 — Configuration file
 
@@ -29,6 +32,9 @@ for world in worlds:
 Config file. **We**. **Need**. **It**.  
 To add a Python application to Supervisely, let's create a configuration file for it. An example of a config file:
 
+<br/>  
+
+**config.json**
 ```
 {
   "name": "Hello world!",
@@ -45,6 +51,8 @@ To add a Python application to Supervisely, let's create a configuration file fo
   "icon_background": "#FFFFFF"
 }
 ```
+
+<br/>
 
 
 ### Step 3 — Create repository
