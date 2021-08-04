@@ -13,7 +13,14 @@ In this part, we will show you how you can turn any Python code into a Supervise
 Let's start with a simple python code.  
 At Supervisely, we try to think **big** — so let's say hello to multiple worlds at once.
 
--main.py code [part 1]-
+
+```
+worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
+
+for world in worlds:
+    print(f'Hello {world}!')
+
+```
 
 
 ### Step 2 — Configuration file
@@ -22,7 +29,22 @@ At Supervisely, we try to think **big** — so let's say hello to multiple world
 Config file. **We**. **Need**. **It**.  
 To add a Python application to Supervisely, let's create a configuration file for it. An example of a config file:
 
--config.json file example  [part 1]-
+```
+{
+  "name": "Hello world!",
+  "type": "app",
+  "categories": [
+    "quickstart"
+  ],
+  "description": "There will be some description",
+  "docker_image": "supervisely/base-py-sdk:6.1.93",
+  "main_script": "[chapter 1] headless/[part 1] Hello world!/src/main.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "icon": "https://img.icons8.com/color/100/000000/1.png",
+  "icon_background": "#FFFFFF"
+}
+```
 
 
 ### Step 3 — Create repository
@@ -38,7 +60,7 @@ If the application is not displayed in Private apps, then you should check Refre
 
 ### Step 4 — Run our app and check output!
 
- Let's take a look at the results of our efforts. Done!
+Let's take a look at the results of our efforts. Done!
 
 -demo .gif / video [part 1] [created]-
 
