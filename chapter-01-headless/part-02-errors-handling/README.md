@@ -45,7 +45,7 @@ To handle errors, you can use the [try: catch] construction
 
 <br/>
 
-
+**src/main.py**
 ``` python
 
 import supervisely_lib as sly
