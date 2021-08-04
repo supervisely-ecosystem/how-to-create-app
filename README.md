@@ -63,7 +63,6 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ### Chapter 1 — Apps without UI [Headless]
 
-
 </div>
 
 ---
@@ -80,3 +79,22 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 	
 </div>
 
+---
+
+<div align="center" markdown>
+
+### Chapter 2 — Apps with modal window UI
+
+</div>
+
+---
+
+<div align="left" markdown>
+	
+### [Part 5 — Modal window [What is it?]](how-to-create-app/tree/master/chapter-02-modal-window/part-05-modal-window/README.MD)
+
+### [Part 6 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/README.md)
+
+<br/>
+	
+</div>
