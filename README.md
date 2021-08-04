@@ -56,7 +56,7 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ---
 
-## [Part 1 — Hello world! [From your Python script to Supervisely APP]](/%5Bchapter%201%5D%20headless/%5Bpart%201%5D%20Hello%20world!/README.md)
+## [Part 1 — Hello world! [From your Python script to Supervisely APP]](chapter-01-headless/part-01-hello-world/README.md)
 
 ---
 
