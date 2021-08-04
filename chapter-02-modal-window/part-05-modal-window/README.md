@@ -59,6 +59,6 @@ Now let's add it to our config file:
 
 ### Step 2 — Results
 
-Let's add the application to the Supervisely and see the result.
+Let's add the application to the Supervisely and see the result.  
 `screenshots/demo`  
 It works.
