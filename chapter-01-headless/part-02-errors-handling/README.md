@@ -41,7 +41,7 @@ for world in worlds:
 
 ### Step 2 — Use [try:catch] with traceback
 
-To handle errors, you can use the [try: catch] construction
+To handle errors, you can use the `[try: catch]` construction
 
 <br/>
 
