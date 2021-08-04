@@ -4,23 +4,29 @@
 
 </div>
 
+
 1. Headless apps (without UI)  
-    1.1. Hello world! — From your Python script to Supervisely APP [part 1]
+
+	1.1. Hello world! — From your Python script to Supervisely APP [part 1]  
 	* Run you Python script in Supervisely
 	* Describe app config.json
 	* How to integrate into Supervisely (later)
-	* How to run? (later)
-    2.1. Error handling — Catching all bugs [part 2]  
-    * Supervisely Logger
-    * Use [try:catch] with traceback
-    * Error in task output
-    3.1. Site Packages — Customize your app [part 3]  
-    * requirements.txt — add some package and print text at the end
-    4.1. SDK Preview — Objects counter app [part 4]  
-    * Environment files
-    * Print objects count for every class in project
-    * Link notebooks (more examples)
-    * Link to full SDK docs
+	* How to run? (later)  
+	
+	1.2. Error handling — Catching all bugs [part 2]  
+	* Supervisely Logger
+	* Use [try:catch] with traceback
+	* Error in task output  
+	
+	
+	1.3. Site Packages — Customize your app [part 3]  
+	* requirements.txt — add some package and print text at the end 
+
+	1.4. SDK Preview — Objects counter app [part 4]  
+	* Environment files
+	* Print objects count for every class in project
+	* Link notebooks (more examples)
+	* Link to full SDK docs
 
 
 <div align="center" markdown>
