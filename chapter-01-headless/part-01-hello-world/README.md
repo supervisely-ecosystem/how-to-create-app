@@ -5,7 +5,7 @@
 
 
 In this part, we will show you how you can turn any Python code into a Supervisely application.
-
+<br/>
 
 ### Step 1 — Python code
 
@@ -68,6 +68,7 @@ There are simple [instructions here](https://docs.supervise.ly/enterprise-editio
 
 If the application is not displayed in Private apps, then you should check Refresh Ecosystem Log (in Tasks).
 
+<br/>
 
 ### Step 4 — Run our app and check output!
 
