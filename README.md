@@ -58,13 +58,10 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 <div align="left" markdown>
 	
 ### [Part 1 — Hello world! [From your Python script to Supervisely APP]](chapter-01-headless/part-01-hello-world/README.md)
-<br/>
-	
+
 ### [Part 2 — Error handling [Catching all bugs]](chapter-01-headless/part-02-errors-handling/README.md)
-<br/>
 
 ### [Part 3 — Site Packages [Customize your app]](chapter-01-headless/part-03-site-packages/README.md)
-<br/>
 	
 ### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-SDK-preview/README.md)
 <br/>
