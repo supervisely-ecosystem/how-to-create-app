@@ -11,8 +11,6 @@ In this part, we will show you how you can turn any Python code into a Supervise
 
 
 Let's start with a simple python code.  
-At Supervisely, we try to think **big** — so let's say hello to multiple worlds at once.
-
 
 <br/>  
 
@@ -71,4 +69,3 @@ If the application is not displayed in Private apps, then you should check Refre
 Let's take a look at the results of our efforts. Done!
 
 -demo .gif / video [part 1] [created]-
-
