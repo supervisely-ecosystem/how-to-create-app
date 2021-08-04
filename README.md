@@ -29,6 +29,18 @@
 	* Link to full SDK docs
 
 
+2. Modal window apps (simplest UI)
+
+	2.1. Modal window — What is it? [part 5]
+	* About states
+	* HTML file
+	* Hello world APP
+
+	2.2. Widgets — Customize modal window [part 6]  
+	* Element widgets
+	* Timer APP
+
+
 <div align="center" markdown>
 <br/>  
 
