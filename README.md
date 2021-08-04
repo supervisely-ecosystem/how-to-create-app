@@ -91,7 +91,7 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="left" markdown>
 	
-### [Part 5 — Modal window [What is it?]](how-to-create-app/tree/master/chapter-02-modal-window/part-05-modal-window/README.MD)
+### [Part 5 — Modal window [What is it?]](chapter-02-modal-window/part-05-modal-window/README.md)
 
 ### [Part 6 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/README.md)
 
