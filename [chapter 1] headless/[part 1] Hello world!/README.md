@@ -17,7 +17,7 @@ At Supervisely, we try to think **big** — so let's say hello to multiple world
 <br/>  
 
 **src/main.py**
-```
+```python
 worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
 
 for world in worlds:
@@ -35,7 +35,7 @@ To add a Python application to Supervisely, let's create a configuration file fo
 <br/>  
 
 **config.json**
-```
+```json
 {
   "name": "Hello world!",
   "type": "app",
