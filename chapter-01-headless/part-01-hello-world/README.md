@@ -56,7 +56,7 @@ To add a Python application to Supervisely, let's create a configuration file fo
 * docker_image — SDK version you were using, it doesn't matter in this app
 * main_script — path from repository `root` to `main.py` (entry point)
 
-
+<br/>  
 
 ### Step 3 — Create repository
 
