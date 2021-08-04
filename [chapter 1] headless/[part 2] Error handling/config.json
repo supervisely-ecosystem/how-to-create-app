@@ -1,0 +1,14 @@
+{
+  "name": "Error handling",
+  "type": "app",
+  "categories": [
+    ""
+  ],
+  "description": "There will be some description",
+  "docker_image": "supervisely/base-py-sdk:6.1.93",
+  "main_script": "[chapter 1] headless/[part 2] Error handling/src/main.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "icon": "https://img.icons8.com/color/100/000000/2.png",
+  "icon_background": "#FFFFFF"
+}

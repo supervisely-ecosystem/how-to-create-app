@@ -1,0 +1,14 @@
+{
+  "name": "Site packages",
+  "type": "app",
+  "categories": [
+    "quickstart"
+  ],
+  "description": "There will be some description",
+  "docker_image": "supervisely/base-py-sdk:6.1.93",
+  "main_script": "[chapter 1] headless/[part 3] Site Packages/src/main.py",
+  "task_location": "workspace_tasks",
+  "isolate": true,
+  "icon": "https://img.icons8.com/color/100/000000/3.png",
+  "icon_background": "#FFFFFF"
+}
