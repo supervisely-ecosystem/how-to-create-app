@@ -137,6 +137,15 @@ print(f'{project_id=} contains {count} {class_of_interest}(-s)')
 <br/>
 
 
+<br/>
+
+**output**
+```
+project_id=6157 contains 8 lemon(-s)
+```
+<br/>
+
+
 ### Step 4 — Complete SDK documentation
 
 [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  
