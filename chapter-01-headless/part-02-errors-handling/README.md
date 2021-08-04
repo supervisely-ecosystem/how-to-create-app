@@ -12,19 +12,76 @@ In this part, we will work with bugs. We will catch them.
 Supervisely has a logger. It is a wrapper over Python's built-in [logging](https://docs.python.org/3/howto/logging.html) package.
 
 First thing we need to do is install Supervisely Python SDK to your environment:
+<br/>
 
 `pip install supervisely`
+<br/>
 
 Let's take the code from Part 1 as a basis and add a logger:
 
--main.py code [part 2]-
+<br/>
+
+
+``` python
+
+import supervisely_lib as sly
+
+worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
+
+sly_logger = sly.logger
+
+
+for world in worlds:
+    sly_logger.info(f'Hello {world}!')
+    
+
+```
+<br/>
 
 
 ### Step 2 — Use [try:catch] with traceback
 
 To handle errors, you can use the [try: catch] construction
 
--main.py code [part 3]-
+<br/>
+
+
+``` python
+
+import supervisely_lib as sly
+
+
+
+worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
+
+
+
+sly_logger = sly.logger
+
+
+
+try:
+
+    for world in worlds:
+
+        sly_logger.info(f'Hello {world}!')
+
+
+
+    if 'Our World' not in worlds:
+
+        raise ValueError(f"Can't find Our World")
+
+
+
+except Exception as ex:
+
+    sly_logger.warning(ex)
+
+    
+
+```
+<br/>
 
 
 ### Step 3 — Viewing the log in task output
