@@ -10,9 +10,11 @@ In this part, we will load a project from the Ecosystem and count the number of 
 We have a powerful SDK for this task. Let's touch it gently?
 
 
-### Step 1 — Clone Lemons (Annotated) project from Ecosystem
+### Step 1 — About states
 
--gif or video-
+Have you heard about the state machine? It is the same.
+State fields help the application core store lightweight data and pass it to Python as needed.
+
 
 ### Step 2 — Environments files
 
