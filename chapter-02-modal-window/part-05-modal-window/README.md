@@ -5,7 +5,8 @@
 <br/>
 </div>  
 
-The modal window in Supervisely appears after launching the application. It can be used for at least two things:
+The modal window in Supervisely appears after launching the application.  
+It can be used for at least two things:
 
 1. to inform the user  
 2. to enter arguments
