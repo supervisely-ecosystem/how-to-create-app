@@ -1,13 +1,14 @@
 {
-  "name": "Site packages",
+  "name": "UI Rendering",
   "type": "app",
   "categories": [
     "quickstart"
   ],
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",
-  "main_script": "chapter-01-headless/part-04-sdk-Preview/src/main.py",
+  "main_script": "chapter-03-headless/part-08-ui-rendering/src/main.py",
+  "gui_template": "chapter-03-headless/part-08-ui-rendering/src/gui.html",
   "task_location": "workspace_tasks",
-  "icon": "https://img.icons8.com/color/100/000000/3.png",
+  "icon": "https://img.icons8.com/color/100/000000/5.png",
   "icon_background": "#FFFFFF"
 }

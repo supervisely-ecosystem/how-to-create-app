@@ -12,15 +12,15 @@
 	* Describe app config.json
 	* How to integrate into Supervisely (later)
 	* How to run? (later)  
-	
+
 	1.2. Error handling — Catching all bugs [part 2]  
 	* Supervisely Logger
 	* Use [try:catch] with traceback
 	* Error in task output  
-	
-	
+
+
 	1.3. Site Packages — Customize your app [part 3]  
-	* requirements.txt — add some package and print text at the end 
+	* requirements.txt — add some package and print text at the end
 
 	1.4. SDK Preview — Objects counter app [part 4]  
 	* Environment files
@@ -67,16 +67,16 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ---
 <div align="left" markdown>
-	
+
 ### [Part 1 — Hello world! [From your Python script to Supervisely APP]](chapter-01-headless/part-01-hello-world/README.md)
 
 ### [Part 2 — Error handling [Catching all bugs]](chapter-01-headless/part-02-errors-handling/README.md)
 
 ### [Part 3 — Site Packages [Customize your app]](chapter-01-headless/part-03-site-packages/README.md)
-	
-### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-SDK-preview/README.md)
+
+### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-sdk-preview/README.md)
 <br/>
-	
+
 </div>
 
 ---
@@ -90,11 +90,11 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 ---
 
 <div align="left" markdown>
-	
+
 ### [Part 5 — Modal window [What is it?]](chapter-02-modal-window/part-05-modal-window/README.md)
 
 ### [Part 6 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/README.md)
 
 <br/>
-	
+
 </div>
