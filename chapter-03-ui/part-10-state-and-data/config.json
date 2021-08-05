@@ -1,0 +1,14 @@
+{
+  "name": "State && Data",
+  "type": "app",
+  "categories": [
+    "quickstart"
+  ],
+  "description": "There will be some description",
+  "docker_image": "supervisely/base-py-sdk:6.1.93",
+  "main_script": "chapter-03-headless/part-10-state-and-data/src/main.py",
+  "gui_template": "chapter-03-headless/part-10-state-and-data/src/gui.html",
+  "task_location": "workspace_tasks",
+  "icon": "https://img.icons8.com/color/100/000000/10.png",
+  "icon_background": "#FFFFFF"
+}

@@ -22,7 +22,7 @@ def error_handler(api: sly.Api, task_id, context, state, app_logger):
 
 
 def main():
-    sly.logger.info('Application starting...')
+    logger.info('Application starting...')
     app.run()
 
 
