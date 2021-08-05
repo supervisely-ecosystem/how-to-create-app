@@ -15,7 +15,7 @@ Ecosystem has an app for debugging applications.
 It's called While True Script.
 
 **How does it work?**  
-Every time you launch an application with UI, you send an HTML file with the UI to the Supervisely server. While True Script takes this file and renders it. This gives you the ability to create an application with UI.
+Every time you launch an application with UI, you send an HTML file with the UI to the Supervisely server. While True Script takes this file and renders it. This makes it easier for you to create an application with UI.
 
 ### Step 2 — Add from Ecosystem && Run
 
