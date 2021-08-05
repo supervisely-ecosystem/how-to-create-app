@@ -16,7 +16,7 @@ It's called While True Script.
 
 **How does it work?**  
 Every time you launch an application with UI, you send an HTML file with the UI to the Supervisely server.  
-While True Script takes this file and renders it. This makes it easier for you to create an application with UI.
+While True Script takes this file and renders it. This makes the process of creating UI applications possible.
 
 ### Step 2 — Add from Ecosystem && Run
 
