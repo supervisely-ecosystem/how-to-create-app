@@ -5,7 +5,7 @@
 <br/>
 </div>  
 
-In this part, we will create a basic UI application.
+In this part, you will learn to create a basic UI application.
 
 ### Step 1 — HTML file
 
@@ -13,6 +13,8 @@ This is very similar to a modal window application.
 But now instead of a modal window — a **whole browser page**!
 
 Let's create some simple HTML:
+
+
 
 **src/gui.html**
 ```HTML
@@ -76,7 +78,7 @@ We also need to specify the path along which our application can cache debugging
 
 
 
-<br/>  
+
 
 **debug.env**
 ```
@@ -99,7 +101,7 @@ LOG_LEVEL="debug"
 2. Write path to GUI file to `config.json`
 
 
-<br/>  
+
 
 **config.json**
 ```
@@ -119,7 +121,7 @@ LOG_LEVEL="debug"
 }
 
 ```
-<br/>  
+
 
 
 ### Step 4 — Results

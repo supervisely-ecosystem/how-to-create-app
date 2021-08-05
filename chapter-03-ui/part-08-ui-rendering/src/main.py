@@ -6,10 +6,11 @@ load_dotenv("../debug.env")
 load_dotenv("../secret_debug.env", override=True)
 
 app = sly.AppService()
+logger = sly.logger
 
 
 def main():
-    sly.logger.info('Application starting...')
+    logger.info('Application starting...')
     app.run()
 
 
