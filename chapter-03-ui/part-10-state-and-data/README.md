@@ -23,7 +23,7 @@ For these purposes, we have `two types of fields` available:
 2. **data** — for storing heavyweight values
 
 ⚠️ In order to use mutable fields while the application is running:  
-1. all required fields must be initialized before calling `app.run`
+1. All required fields must be initialized before calling `app.run`
 2. Fields keys must be written in `CamelCase` register
 3. `data` fields can't read the values of widgets,  
  so for widgets you need to use `state`
@@ -61,9 +61,11 @@ logger = sly.logger
 def start_timer(api: sly.Api, task_id, context, state, app_logger):
     timer_value = app_api.app.get_field(task_id=task_id,
                                         field='state.timerValue')  # getting field
+    ...
     app_api.app.set_field(task_id=task_id,
-                          field='state.timerStarted',
-                          payload=True)  # setting field
+                          field='data.timeLeft',
+                          payload=0)   # setting field
+
 
 ```
 

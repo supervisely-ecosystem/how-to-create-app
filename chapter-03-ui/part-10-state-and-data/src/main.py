@@ -15,9 +15,6 @@ logger = sly.logger
 def start_timer(api: sly.Api, task_id, context, state, app_logger):
     timer_value = app_api.app.get_field(task_id=task_id,
                                         field='state.timerValue')  # getting field
-    app_api.app.set_field(task_id=task_id,
-                          field='state.timerStarted',
-                          payload=True)  # setting field
 
     starting_time = time.time()
 
@@ -25,12 +22,12 @@ def start_timer(api: sly.Api, task_id, context, state, app_logger):
         time_left = timer_value - (time.time() - starting_time)
         app_api.app.set_field(task_id=task_id,
                               field='data.timeLeft',
-                              payload=time_left)
+                              payload=time_left)    # setting field
         time.sleep(1)
 
     app_api.app.set_field(task_id=task_id,
                           field='data.timeLeft',
-                          payload=0)
+                          payload=0)   # setting field
 
 
 def main():
