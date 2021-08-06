@@ -2,12 +2,12 @@
 <div align="left" markdown>
 
 ## **Part 4 — SDK Preview [Lemons counter app]**  
-<br/>
+
 </div>  
 
 In this part, we will load a project from the Ecosystem and count the number of annotated lemons.
 
-We have a powerful SDK for this task. Let's touch it gently?
+We have a powerful SDK for this task. *Let's touch it gently?*
 
 
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
@@ -19,11 +19,10 @@ We have a powerful SDK for this task. Let's touch it gently?
 For our convenience, let's make two files in application directory:
 debug.env and secret_debug.env
 
+![](media/add-env-files.png)
+
 We will add constants to these files to access the Supervisely SDK
 
-
-
-<br/>
 
 **debug.env**
 ```env
@@ -36,12 +35,8 @@ context.workspaceId=333
 
 LOG_LEVEL="debug"
 ```
-<br/>
 
-
-<br/>
-
-**secret_debug.env** (⚠️ keep the file secret)
+**secret_debug.env** (⚠️ keep the file in secret)
 ```env
 # This file is used for example! After filling in your personal data, keep the file secret!
 
@@ -49,22 +44,18 @@ SERVER_ADDRESS="https://app.supervise.ly/"
 API_TOKEN=""  # get it in https://app.supervise.ly/user/settings/tokens
 AGENT_TOKEN= # ???
 ```
-<br/>
-
 
 
 ### Step 3 — Python script
 
 Let's write a simple script that:
 
-
-
 1. loads the project
 2. retrieves annotations
 3. counts the number of lemons
 
 Here is the completed code:
-<br/>
+
 
 **src/main.py**
 ```python
@@ -134,16 +125,12 @@ for image_annotation in images_annotations:
 
 print(f'{project_id=} contains {count} {class_of_interest}(-s)')
 ```
-<br/>
 
 
-<br/>
-
-**output**
+**Results:**
 ```
 project_id=6157 contains 8 lemon(-s)
 ```
-<br/>
 
 
 ### Step 4 — Complete SDK documentation
