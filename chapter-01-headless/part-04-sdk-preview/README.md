@@ -19,7 +19,7 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 For our convenience, let's make two files in application directory:
 debug.env and secret_debug.env
 
-![](media/add-env-files.png)
+![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-04-sdk-preview/media/add-env-files.png)
 
 We will add constants to these files to access the Supervisely SDK
 
