@@ -8,23 +8,21 @@
 The modal window in Supervisely appears after clicking on the launch button of the application.
 It can be used for at least two things:
 
-1. to inform the user  
-2. to enter arguments
+1. **to inform the user**
+2. **to enter arguments**
 
 In this part, we will create a basic application with modal window.  
-We will use the modal window as an information board.
+We will use the modal window as an **information board**.
 
 
 ### Step 1 — HTML file
 
 We use HTML to create the UI.
 
-📝 you can preview your HTML in [our Application Designer](https://app.supervise.ly/apps/designer)
+📝 **you can preview your HTML in [our Application Designer](https://app.supervise.ly/apps/designer)**
 
 Here's our modal window:
 
-
-<br/>  
 
 **src/modal.html**  
 ```HTML
@@ -32,18 +30,15 @@ Here's our modal window:
     This is my first modal window app.
 </div>
 ```
-<br/>
 
-Simple. Isn't?
-
+Simple. Isn't?  
 Now let's add it to our config file:
 
-<br/>  
 
 **config.json**  
 ```json
 {
-  "name": "Modal window",
+  "name": "Modal Window",
   "type": "app",
   "categories": [
     "quickstart"
@@ -58,7 +53,6 @@ Now let's add it to our config file:
 }
 
 ```
-<br/>
 
 
 ### Step 2 — Results

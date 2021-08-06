@@ -2,7 +2,7 @@
 <div align="left" markdown>
 
 ## **Part 6 — States and Widgets [Customize modal window]**  
-<br/>
+
 </div>  
 
 
@@ -24,7 +24,7 @@ We'll need them to pass arguments from HTML to Python.
 [Element widgets](https://element.eleme.io/1.4/#/en-US/component/input-number) are available in our core.  
 We can easily add an input box:
 
-<br/>  
+
 
 **src/modal.html**  
 ```HTML
@@ -32,7 +32,7 @@ We can easily add an input box:
      <el-input-number v-model="state.timerValue" :min="1" :max="60"></el-input-number>
 </div>
 ```
-<br/>
+
 
 Have you forgotten about **states** yet?  
 Using the **v-model** parameter, we bind the APP core to the UI.
@@ -41,7 +41,7 @@ Using the **v-model** parameter, we bind the APP core to the UI.
 
 Python code is a regular timer:
 
-<br/>  
+
 
 **src/main.py**  
 ```python
@@ -76,8 +76,8 @@ while time.time() - starting_time < timer_value:
 
 sly_logger.warning(f'The timer has rang! DZZZZ')
 ```
-<br/>
+
 
 ### Step 4 — Results
 
--here will be gif/video with results- 
+-here will be gif/video with results-
