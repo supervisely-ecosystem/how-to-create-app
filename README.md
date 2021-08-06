@@ -1,4 +1,4 @@
-<div align="center" markdown>
+<!-- <div align="center" markdown>
 
 # **Content**
 
@@ -39,7 +39,7 @@
 	2.2. Widgets — Customize modal window [part 6]  
 	* Element widgets
 	* Timer APP
-
+ -->
 
 <div align="center" markdown>
 <br/>  
