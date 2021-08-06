@@ -20,7 +20,7 @@ While True Script takes this file and renders it. This makes the process of crea
 
 ### Step 2 — Add from Ecosystem && Run
 
-![](media/add-from-ecosystem-and-run.gif)
+![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-07-while-true-script/media/add-from-ecosystem-and-run.gif)
 <!-- <img src="https://imgur.com/AygFfjM.gif" style="max-width:100%;"/> -->
 
 
