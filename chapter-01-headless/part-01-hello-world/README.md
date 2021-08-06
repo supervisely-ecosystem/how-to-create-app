@@ -1,18 +1,17 @@
 
 ## **Part 1 — Hello world! [From your Python script to Supervisely APP]**  
-<br/>
 </div>
 
 
 In this part, we will show you how you can turn any Python code into a Supervisely application.
-<br/>
+
+---
 
 ### Step 1 — Python code
 
 
 Let's start with a simple python code.  
 
-<br/>  
 
 **src/main.py**
 ```python
@@ -22,8 +21,8 @@ for world in worlds:
     print(f'Hello {world}!')
 
 ```
-<br/>
 
+---
 ### Step 2 — Configuration file
 
 
@@ -58,6 +57,7 @@ To add a Python application to Supervisely, let's create a configuration file fo
 
 <br/>  
 
+---
 ### Step 3 — Repository setup
 
 In this step, we create a repository and add our code to it.
@@ -100,7 +100,7 @@ git remote add origin https://github.com/link-to-your-repo.git
 git push -u origin main
 ```
 
-
+---
 ### Step 4 — Add app to Supervisely
 
 We've almost reached the finish line!  
@@ -120,7 +120,7 @@ It remains to add the application to the Ecosystem.
 
 ![](media/add-private-app-creds.png)
 
-
+---
 ### Step 5 — Run our app and check output!
 
 Let's take a look at the results of our efforts. Done!

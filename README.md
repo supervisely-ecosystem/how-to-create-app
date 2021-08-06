@@ -70,11 +70,11 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ### [Part 1 — Hello world! [From your Python script to Supervisely APP]](chapter-01-headless/part-01-hello-world/)
 
-### [Part 2 — Error handling [Catching all bugs]](chapter-01-headless/part-02-errors-handling/README.md)
+### [Part 2 — Error handling [Catching all bugs]](chapter-01-headless/part-02-errors-handling/)
 
-### [Part 3 — Site Packages [Customize your app]](chapter-01-headless/part-03-site-packages/README.md)
+### [Part 3 — Site Packages [Customize your app]](chapter-01-headless/part-03-site-packages/)
 
-### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-sdk-preview/README.md)
+### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-sdk-preview/)
 <br/>
 
 </div>
@@ -91,9 +91,9 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="left" markdown>
 
-### [Part 5 — Modal window [What is it?]](chapter-02-modal-window/part-05-modal-window/README.md)
+### [Part 5 — Modal window [What is it?]](chapter-02-modal-window/part-05-modal-window/)
 
-### [Part 6 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/README.md)
+### [Part 6 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/)
 
 <br/>
 
@@ -109,12 +109,12 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ---
 
-### [Part 7 — While True Script [It's all what you need]](chapter-03-ui/part-07-while-true-script/README.md)
+### [Part 7 — While True Script [It's all what you need]](chapter-03-ui/part-07-while-true-script/)
 
-### [Part 8 — UI Rendering [Simplest Application]](chapter-03-ui/part-08-ui-rendering/README.md)
+### [Part 8 — UI Rendering [Simplest Application]](chapter-03-ui/part-08-ui-rendering/)
 
-### [Part 9 — APP Handlers [Handle Events and Errors]](chapter-03-ui/part-09-app-handlers/README.md)
+### [Part 9 — APP Handlers [Handle Events and Errors]](chapter-03-ui/part-09-app-handlers/)
 
-### [Part 10 — State and Data [Mutable Fields]](chapter-03-ui/part-10-state-and-data/README.md)
+### [Part 10 — State and Data [Mutable Fields]](chapter-03-ui/part-10-state-and-data/)
 
-### [Part 11 — Styling your app [Customizing the UI]](chapter-03-ui/part-11-styling-your-app/README.md)
+### [Part 11 — Styling your app [Customizing the UI]](chapter-03-ui/part-11-styling-your-app/)
