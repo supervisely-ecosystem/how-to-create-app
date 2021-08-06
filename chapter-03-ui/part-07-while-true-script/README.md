@@ -20,7 +20,7 @@ While True Script takes this file and renders it. This makes the process of crea
 
 ### Step 2 — Add from Ecosystem && Run
 
-![](https://imgur.com/AygFfjM)
+![](https://imgur.com/AygFfjM.gif)
 
 ### Step 3 — Results
 
