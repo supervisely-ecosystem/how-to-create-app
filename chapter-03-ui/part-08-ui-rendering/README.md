@@ -9,8 +9,12 @@ In this part, you will learn to create a basic UI application.
 
 ### Step 1 — HTML file
 
+
 This is very similar to a modal window application.   
 But now instead of a modal window — a **whole browser page**!
+
+
+`Note:` you can preview your HTML in [our designer](https://app.supervise.ly/apps/designer)  
 
 Let's create some simple HTML:
 

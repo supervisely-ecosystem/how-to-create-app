@@ -1,8 +1,7 @@
 import supervisely_lib as sly
 import time
 from dotenv import load_dotenv  # pip install python-dotenv
-
-# don't forget to add to requirements.txt!
+                                # don't forget to add to requirements.txt!
 
 load_dotenv("../debug.env")
 load_dotenv("../secret_debug.env", override=True)

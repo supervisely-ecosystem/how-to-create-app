@@ -98,3 +98,23 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 <br/>
 
 </div>
+
+---
+
+<div align="center" markdown>
+
+### Chapter 3 — Apps with UI
+
+</div>
+
+---
+
+### [Part 7 — While True Script [It's all what you need]](chapter-03-ui/part-07-while-true-script/README.md)
+
+### [Part 8 — UI Rendering [Simplest Application]](chapter-03-ui/part-08-ui-rendering/README.md)
+
+### [Part 9 — APP Handlers [Handle Events and Errors]](chapter-03-ui/part-09-app-handlers/README.md)
+
+### [Part 10 — State and Data [Mutable Fields]](chapter-03-ui/part-10-state-and-data/README.md)
+
+### [Part 11 — Styling your app [Customizing the UI]](chapter-03-ui/part-11-styling-your-app/README.md)
