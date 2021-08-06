@@ -19,7 +19,6 @@ First thing we need to do is install Supervisely Python SDK to your environment:
 
 Let's take the code from Part 1 as a basis and add a logger:
 
-<br/>
 
 
 ``` python
@@ -30,20 +29,16 @@ worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
 
 sly_logger = sly.logger
 
-
 for world in worlds:
     sly_logger.info(f'Hello {world}!')
-    
-
 ```
-<br/>
 
 
 ### Step 2 — Use [try:catch] with traceback
 
 To handle errors, you can use the `[try: catch]` construction
 
-<br/>
+
 
 **src/main.py**
 ``` python
@@ -62,9 +57,8 @@ try:
 
 except Exception as ex:
     sly_logger.warning(ex)    
-
 ```
-<br/>
+
 
 
 ### Step 3 — Viewing the log in task output
