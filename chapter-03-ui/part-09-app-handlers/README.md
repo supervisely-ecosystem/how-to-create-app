@@ -18,8 +18,8 @@ In the HTML file, I will create a button that invokes the command on **click**:
 <div>
 	<el-button
 		type="success"
-	    @click="command('normal_handler')">
-        	Call normal handler
+	    	@click="command('normal_handler')">
+        		Call normal handler
 	 </el-button>
 </div>
 
