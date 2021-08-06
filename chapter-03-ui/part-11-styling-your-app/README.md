@@ -16,7 +16,7 @@ Remember the Part 6 Elements widgets?
 We can use elements from Element when creating applications with UI.  
 It is enough to add the desired element to the HTML file.
 
-⚠️ Don't forget to initialize State so the buttons work properly
+⚠️ Don't forget to initialize `state` so the buttons work properly
 
 **Example:**
 ```HTML

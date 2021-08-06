@@ -19,7 +19,7 @@ We will use the modal window as an information board.
 
 We use HTML to create the UI.
 
-`Note:` you can preview your HTML in [our Application Designer](https://app.supervise.ly/apps/designer)
+📝 you can preview your HTML in [our Application Designer](https://app.supervise.ly/apps/designer)
 
 Here's our modal window:
 

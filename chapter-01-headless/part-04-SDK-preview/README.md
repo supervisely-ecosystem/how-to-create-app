@@ -16,7 +16,7 @@ We have a powerful SDK for this task. Let's touch it gently?
 
 ### Step 2 — Environments files
 
-For our convenience, let's make two files in application directory: \
+For our convenience, let's make two files in application directory:
 debug.env and secret_debug.env
 
 We will add constants to these files to access the Supervisely SDK
@@ -41,7 +41,7 @@ LOG_LEVEL="debug"
 
 <br/>
 
-**secret_debug.env**
+**secret_debug.env** (⚠️ keep the file secret)
 ```env
 # This file is used for example! After filling in your personal data, keep the file secret!
 
@@ -63,7 +63,7 @@ Let's write a simple script that:
 2. retrieves annotations
 3. counts the number of lemons
 
-Here is the completed code: 
+Here is the completed code:
 <br/>
 
 **src/main.py**

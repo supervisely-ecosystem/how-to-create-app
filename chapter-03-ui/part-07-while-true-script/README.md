@@ -25,8 +25,9 @@ While True Script takes this file and renders it. This makes the process of crea
 ### Step 3 — Results
 
 We have successfully run our While True Script.  
-Remember the **TASK_ID**  
-**In this case it is equal to 0000**  
+
+⚠️ Remember the **TASK_ID**  
+**In this case it is equal to `7715`**  
 It will be useful for us to work with it.
 
 `gif (running While True)`  

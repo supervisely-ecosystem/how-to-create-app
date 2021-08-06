@@ -52,25 +52,76 @@ To add a Python application to Supervisely, let's create a configuration file fo
 
 <br/>
 
-**Pay attention to important fields:**
+⚠️ **Pay attention to important fields:**
 * `docker_image` — SDK version you were using, it doesn't matter in this app
 * `main_script` — path from repository `root` to `main.py` (entry point)
 
 <br/>  
 
-### Step 3 — Create repository
+### Step 3 — Repository setup
 
-
-We've almost reached the finish line!
 In this step, we create a repository and add our code to it.
 
-There are simple [instructions here](https://docs.supervise.ly/enterprise-edition/advanced-tuning/private-apps).
+#### 1. Generate new personal token
 
-If the application is not displayed in Private apps, then you should check Refresh Ecosystem Log (in Tasks).
 
-<br/>
+Open GitHub → Settings → Developer settings → [Personal access tokens](https://github.com/settings/tokens)  
+Click `Generate new token`
 
-### Step 4 — Run our app and check output!
+Select "repo" access scope and click "Generate token" button.  
+**Save generated token — you will need it later.**
+
+![](media/personal-token.png)
+
+#### 2. Create GitHub repository
+
+Let's create a new GitHub repository that we will use to deploy a new Supervisely application.  Create a [new private GitHub repository](https://github.com/new): do not forget to choose "Private" visibility option.
+
+![](media/new-repo.png)
+
+
+You can create a public repositry alright — you will still need a personal token and further steps are gonna be the same.
+
+
+#### 3. Push app to repository
+
+Make sure you have collected all the required files:
+- `src/main.py`
+- `config.json`
+- `README.md` (optional)
+
+Then just push files to git:
+```git
+git init
+git add --all
+git commit -m "init first app"
+git branch -M main
+git remote add origin https://github.com/link-to-your-repo.git
+git push -u origin main
+```
+
+
+### Step 4 — Add app to Supervisely
+
+We've almost reached the finish line!  
+It remains to add the application to the Ecosystem.
+
+#### 1. Go to the [Private Apps section](http://supervise.ly/ecosystem/private)
+
+![](media/private-apps-section.png)
+
+#### 2. Add your application
+
+![](media/add-private-app-button.png)
+
+⚠️ Pay attention:  
+1. In the `Github repository URL` field, specify the link to the directory containing the application's `config.json`
+2. In the `GitHub personal access token` field, paste your token that you saved in `step 1`
+
+![](media/add-private-app-creds.png)
+
+
+### Step 5 — Run our app and check output!
 
 Let's take a look at the results of our efforts. Done!
 
