@@ -6,7 +6,7 @@
 
 In this part, we will work with bugs. We will catch them.
 
-
+---
 ### Step 1 — Supervisely logger
 
 Supervisely has a logger. It is a wrapper over Python's built-in [logging](https://docs.python.org/3/howto/logging.html) package.
@@ -33,7 +33,7 @@ for world in worlds:
     sly_logger.info(f'Hello {world}!')
 ```
 
-
+---
 ### Step 2 — Use [try:catch] with traceback
 
 To handle errors, you can use the `[try: catch]` construction
@@ -60,7 +60,7 @@ except Exception as ex:
 ```
 
 
-
+---
 ### Step 3 — Viewing the log in task output
 
 

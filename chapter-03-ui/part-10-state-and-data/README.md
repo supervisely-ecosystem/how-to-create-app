@@ -8,6 +8,7 @@
 In this part, you will learn how to change the values of state and data fields.  
 And how they can be used in the application.
 
+---
 ### Step 1 — Mutable state && data fields
 
 Remember the Part 6 State Machine?  
@@ -45,6 +46,7 @@ def main():
 
 ```
 
+---
 ### Step 2 — GET && SET field
 
 To `get` or `set` field, we need to refer to the `api` of the application.  
@@ -69,6 +71,7 @@ def start_timer(api: sly.Api, task_id, context, state, app_logger):
 
 ```
 
+---
 ### Step 3 — Results
 
 Let's run the app and take a look at our improved timer!

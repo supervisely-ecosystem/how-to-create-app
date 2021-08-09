@@ -7,6 +7,7 @@
 
 In this part, we will introduce you to app handlers and tell you what they are for.
 
+---
 ### Step 1 — Handle HTML events
 
 How do I make the IU buttons work?  
@@ -34,14 +35,14 @@ def normal_handler(api: sly.Api, task_id, context, state, app_logger):
 ```
 
 This callback is triggered if the command name matches the name of the callback parameter.  
-Arguments that come to the input:
+**Arguments that come to the input:**
 * api — api the object of the user who called the callback
 * task_id — app task_id
 * context — information about the environment in which the application is running
 * state — state of all widgets in Python dict format
 * app_logger — sly_logger with task_id
 
-
+---
 ### Step 2 — Dialog window instead of an error
 
 Sometimes we want the application not to crash  after an error occurs.  
@@ -59,6 +60,7 @@ def error_handler(api: sly.Api, task_id, context, state, app_logger):
 
 ```
 
+---
 ### Step 3 — Results
 
 Let's run the application and see what we get.

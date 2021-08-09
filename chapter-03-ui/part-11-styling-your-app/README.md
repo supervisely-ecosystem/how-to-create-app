@@ -9,7 +9,7 @@
 In this part, you will learn how you can customize HTML in your application.  
 **We will use [our Application Designer](https://app.supervise.ly/apps/designer) to preview the HTML files.**
 
-
+---
 ### Step 1 — Elements widgets, again
 
 Remember the Part 6 Elements widgets?  
@@ -49,9 +49,7 @@ It is enough to add the desired element to the HTML file.
 `here be result gif`
 
 
-
-
-
+---
 ### Step 2 — HTML Styles
 
 Also you can create your own styles and apply them to elements.  
@@ -87,7 +85,7 @@ Inline styles are also available.
 
 `here be result gif`
 
-
+---
 ### Step 3 — Elements properties (Disabling, Hiding, Loading, Iterating)
 
 Some elements of the HTML file **have properties**.  

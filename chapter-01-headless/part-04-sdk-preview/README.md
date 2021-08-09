@@ -10,10 +10,12 @@ In this part, we will load a project from the Ecosystem and count the number of 
 We have a powerful SDK for this task. *Let's touch it gently?*
 
 
+---
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
 
 -gif or video-
 
+---
 ### Step 2 — Environments files
 
 For our convenience, let's make two files in application directory:
@@ -46,6 +48,7 @@ AGENT_TOKEN= # ???
 ```
 
 
+---
 ### Step 3 — Python script
 
 Let's write a simple script that:
@@ -133,6 +136,7 @@ project_id=6157 contains 8 lemon(-s)
 ```
 
 
+---
 ### Step 4 — Complete SDK documentation
 
 [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  

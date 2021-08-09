@@ -7,6 +7,7 @@
 
 In this part, you will learn to create a basic UI application.
 
+---
 ### Step 1 — HTML file
 
 
@@ -47,6 +48,7 @@ Let's create some simple HTML:
 
 ```
 
+---
 ### Step 2 — Python Script
 
 To keep the application running all the time, we will use the `app.run` method.
@@ -74,14 +76,12 @@ if __name__ == "__main__":
 
 ```
 
+---
 ### Step 3 — Updating debug.env && config.json
 
 1. Write `TASK_ID` While True Script from [part 7] to `debug.env`  
 We also need to specify the path along which our application can cache debugging data
 `DEBUG_APP_DIR` and `DEBUG_CACHE_DIR`
-
-
-
 
 
 **debug.env**
@@ -127,6 +127,7 @@ LOG_LEVEL="debug"
 ```
 
 
+---
 
 ### Step 4 — Results
 

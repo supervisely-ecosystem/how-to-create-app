@@ -15,6 +15,7 @@ In this part, we will create a basic application with modal window.
 We will use the modal window as an **information board**.
 
 
+---
 ### Step 1 — HTML file
 
 We use HTML to create the UI.
@@ -54,7 +55,7 @@ Now let's add it to our config file:
 
 ```
 
-
+---
 ### Step 2 — Results
 
 Let's add the application to the Supervisely and see the result.  
