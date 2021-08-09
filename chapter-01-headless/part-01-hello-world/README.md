@@ -71,14 +71,14 @@ Click `Generate new token`
 Select "repo" access scope and click "Generate token" button.  
 **Save generated token — you will need it later.**
 
-<img src="https://imgur.com/68J2Z6t.png" width="80%" style='padding-top: 10px'>  
-![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/personal-token.png)
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/personal-token.png" width="80%" style='padding-top: 10px'>  
+
 
 #### 2. Create GitHub repository
 
 Let's create a new GitHub repository that we will use to deploy a new Supervisely application.  Create a [new private GitHub repository](https://github.com/new): do not forget to choose "Private" visibility option.
 
-![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/new-repo.png)
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/new-repo.png" width="80%" style='padding-top: 10px'>  
 
 
 You can create a public repositry alright — you will still need a personal token and further steps are gonna be the same.
@@ -109,17 +109,20 @@ It remains to add the application to the Ecosystem.
 
 #### 1. Go to the [Private Apps section](http://supervise.ly/ecosystem/private)
 
-![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/private-apps-section.png)
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/private-apps-section.png" width="80%" style='padding-top: 10px'>  
+
 
 #### 2. Add your application
 
-![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/add-private-app-button.png)
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/add-private-app-button.png" width="80%" style='padding-top: 10px'>  
+
 
 ⚠️ Pay attention:  
 1. In the `Github repository URL` field, specify the link to the directory containing the application's `config.json`
 2. In the `GitHub personal access token` field, paste your token that you saved in `step 1`
 
-![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/add-private-app-creds.png)
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/add-private-app-creds.png" width="80%" style='padding-top: 10px'>  
+
 
 ---
 ### Step 5 — Run our app and check output!
@@ -127,5 +130,5 @@ It remains to add the application to the Ecosystem.
 Let's take a look at the results of our efforts. Done!
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/yHV4pUhO1DQ" data-video-code="yHV4pUhO1DQ">
-    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="github-link-here" alt=""  style="max-width:100%;">
 </a>
