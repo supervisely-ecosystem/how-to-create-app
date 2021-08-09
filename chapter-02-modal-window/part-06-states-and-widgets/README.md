@@ -21,7 +21,7 @@ For a modal window application, this does it in **config.json**
 **config.json** (partially)
 ```json
 "modal_template_state": {
-  "timerValue": "0"
+  "timerValue": "10"
 },
 ```
 

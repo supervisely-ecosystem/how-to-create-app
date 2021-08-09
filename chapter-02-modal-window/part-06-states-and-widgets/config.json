@@ -5,7 +5,7 @@
     "quickstart"
   ],
   "modal_template_state": {
-    "timerValue": "0"
+    "timerValue": "10"
   },
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",

@@ -17,12 +17,11 @@ First thing we need to do is install Supervisely Python SDK to your environment:
 `pip install supervisely`
 <br/>
 
-Let's take the code from Part 1 as a basis and add a logger:
+Let's take the code from Part 1 as a basis and add a logger:  
 
 
 
 ``` python
-
 import supervisely_lib as sly
 
 worlds = ['Westeros', 'Azeroth', 'Middle Earth', 'Narnia']
@@ -56,7 +55,7 @@ try:
         raise ValueError(f"Can't find Our World")
 
 except Exception as ex:
-    sly_logger.warning(ex)    
+    sly_logger.warning(ex)
 ```
 
 

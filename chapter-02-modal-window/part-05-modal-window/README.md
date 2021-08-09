@@ -28,7 +28,7 @@ Here's our modal window:
 **src/modal.html**  
 ```HTML
 <div>
-    This is my first modal window app.
+    <h3>This is my first modal window app.</h3>
 </div>
 ```
 
