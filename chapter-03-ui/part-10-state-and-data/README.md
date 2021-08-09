@@ -78,5 +78,5 @@ Let's run the app and take a look at our improved timer!
 
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/W-598G9BH4Y" data-video-code="W-598G9BH4Y">
-    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-10-state-and-data/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
