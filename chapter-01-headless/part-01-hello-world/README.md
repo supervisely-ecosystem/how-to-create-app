@@ -130,5 +130,5 @@ It remains to add the application to the Ecosystem.
 Let's take a look at the results of our efforts. Done!
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/yHV4pUhO1DQ" data-video-code="yHV4pUhO1DQ">
-    <img src="github-link-here" alt=""  style="max-width:100%;">
+    <img src="github-link-here" alt="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/video-preview.png"  style="max-width:100%;">
 </a>
