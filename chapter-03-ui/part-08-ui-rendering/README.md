@@ -132,5 +132,5 @@ LOG_LEVEL="debug"
 ### Step 4 — Results
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/bUaAbjJbRh4" data-video-code="bUaAbjJbRh4">
-    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-08-ui-rendering/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
