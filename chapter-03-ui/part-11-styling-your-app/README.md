@@ -48,6 +48,8 @@ It is enough to add the desired element to the HTML file.
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-11-styling-your-app/media/element-state-init.png" width="80%" style='padding-top: 10px'>  
 
+---
+
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-11-styling-your-app/media/element-example.png" width="80%" style='padding-top: 10px'>  
 
 
@@ -129,6 +131,9 @@ They can be changed.
 
 **Result:**
 
-<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-11-styling-your-app/media/elements-props-data.png" width="80%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-11-styling-your-app/media/elements-props-data.png" width="80%" style='padding-top: 10px'>   
+
+---
+
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-11-styling-your-app/media/elements-props-preview.png" width="80%" style='padding-top: 10px'>  
 
