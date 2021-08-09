@@ -28,7 +28,7 @@ For a modal window application, this does it in **config.json**
 **Remember the states.**  
 We'll need them to pass arguments from HTML to Python.
 
----
+
 ---
 ### Step 2 — Element widgets
 
