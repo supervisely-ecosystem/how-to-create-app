@@ -23,7 +23,7 @@ While True Script takes this file and renders it. This makes the process of crea
 ### Step 2 — Add from Ecosystem && Run
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/CXFvMmJ1IHI" data-video-code="CXFvMmJ1IHI">
-    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-07-while-true-script/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
 
 
