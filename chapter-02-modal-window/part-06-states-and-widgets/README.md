@@ -15,6 +15,16 @@ We will use a modal window to enter arguments.
 Have you heard about the state machine? It is the same.  
 State fields help the application core store lightweight data and pass it to Python as needed.
 
+⚠️ To use `states` in our application, we need to initialize them.  
+For a modal window application, this does it in **config.json**
+
+**config.json** (partially)
+```json
+"modal_template_state": {
+  "timerValue": "0"
+},
+```
+
 **Remember the states.**  
 We'll need them to pass arguments from HTML to Python.
 

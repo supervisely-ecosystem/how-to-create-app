@@ -4,6 +4,9 @@
   "categories": [
     "quickstart"
   ],
+  "modal_template_state": {
+    "timerValue": "0"
+  },
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",
   "main_script": "chapter-02-headless/part-05-modal-window/src/main.py",

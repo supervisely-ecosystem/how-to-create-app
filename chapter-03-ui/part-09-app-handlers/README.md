@@ -25,15 +25,22 @@ In the HTML file, I will create a button that invokes the command on **click**:
 
 ```
 
-In Python code I will handle this command using callback handler:
+In Python code I will handle this command using callback handler
 
 **src/main.py** (partially)
 ```python
 @app.callback('normal_handler')
 def normal_handler(api: sly.Api, task_id, context, state, app_logger):
-    logger.info('normal handler called')
-
 ```
+
+This callback is triggered if the command name matches the name of the callback parameter.  
+Arguments that come to the input:
+* api — api the object of the user who called the callback
+* task_id — app task_id
+* context — information about the environment in which the application is running
+* state — state of all widgets in Python dict format
+* app_logger — sly_logger with task_id
+
 
 ### Step 2 — Dialog window instead of an error
 
