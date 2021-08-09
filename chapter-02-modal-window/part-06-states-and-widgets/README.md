@@ -40,6 +40,7 @@ We can easily add an input box:
 **src/modal.html**  
 ```HTML
 <div>
+     <h3>Timer value (in seconds):</h3>
      <el-input-number v-model="state.timerValue" :min="1" :max="60"></el-input-number>
 </div>
 ```

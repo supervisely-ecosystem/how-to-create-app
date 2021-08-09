@@ -65,7 +65,8 @@ Here is the completed code:
 import supervisely_lib as sly
 import os
 import json
-from dotenv import load_dotenv  # pip install python-dotenv\
+from dotenv import load_dotenv  # pip install python-dotenv
+								# don't forget to add to requirements.txt!
 
 # Loading env files
 load_dotenv("../debug.env")
@@ -139,5 +140,5 @@ project_id=6157 contains 8 lemon(-s)
 ---
 ### Step 4 — Complete SDK documentation
 
-[Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  
-[Complete Python SDK](https://sdk.docs.supervise.ly/sdk_packages.html)
+* [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  
+* [Complete Python SDK](https://sdk.docs.supervise.ly/sdk_packages.html)
