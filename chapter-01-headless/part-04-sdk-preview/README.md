@@ -13,7 +13,7 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 ---
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
 
--gif or video-
+Clone [Lemons (Annotated)](https://app.supervise.ly/ecosystem/projects/lemons-annotated) project from Ecosystem to your Workspace
 
 ---
 ### Step 2 — Environments files
@@ -139,6 +139,7 @@ project_id=6157 contains 8 lemon(-s)
 
 ---
 ### Step 4 — Complete SDK documentation
+You can find more information here:
 
 * [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  
 * [Complete Python SDK](https://sdk.docs.supervise.ly/sdk_packages.html)

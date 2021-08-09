@@ -33,9 +33,9 @@ for world in worlds:
 ```
 
 ---
-### Step 2 — Use [try:catch] with traceback
+### Step 2 — Use [try: except] with traceback
 
-To handle errors, you can use the `[try: catch]` construction
+To handle errors, you can use the `[try: except]` construction
 
 
 
@@ -65,5 +65,6 @@ except Exception as ex:
 
 Let's add our application to Supervisely and check the results.
 
-
--demo .gif / video [part 2] [not created]-
+<p align="left">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P-YLiWrvCsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
