@@ -66,5 +66,5 @@ def error_handler(api: sly.Api, task_id, context, state, app_logger):
 Let's run the application and see what we get.
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/U2XtONhiZaw" data-video-code="U2XtONhiZaw">
-    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-09-app-handlers/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
