@@ -65,4 +65,6 @@ def error_handler(api: sly.Api, task_id, context, state, app_logger):
 
 Let's run the application and see what we get.
 
-`gif run app and show buttons results`
+<a data-key="sly-embeded-video-link" href="https://youtu.be/U2XtONhiZaw" data-video-code="U2XtONhiZaw">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>

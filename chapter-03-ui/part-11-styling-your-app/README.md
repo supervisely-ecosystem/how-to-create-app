@@ -40,7 +40,7 @@ It is enough to add the desired element to the HTML file.
 		    <el-checkbox label="Option C"></el-checkbox>
 		</el-checkbox-group>
 	</div>
-<div>
+</div>
 
 ```
 
@@ -77,7 +77,7 @@ Inline styles are also available.
 	<div>
 		Text without custom class
 	</div>
-<div>
+</div>
 
 ```
 

@@ -1,8 +1,8 @@
 {
-  "name": "Error handling",
+  "name": "Error Handling",
   "type": "app",
   "categories": [
-    ""
+    "quickstart"
   ],
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",

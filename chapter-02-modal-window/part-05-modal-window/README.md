@@ -59,5 +59,9 @@ Now let's add it to our config file:
 ### Step 2 — Results
 
 Let's add the application to the Supervisely and see the result.  
-`screenshots/demo`  
+
+<a data-key="sly-embeded-video-link" href="https://youtu.be/yHV4pUhO1DQ" data-video-code="yHV4pUhO1DQ">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>
+
 It works.

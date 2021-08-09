@@ -71,6 +71,7 @@ Click `Generate new token`
 Select "repo" access scope and click "Generate token" button.  
 **Save generated token — you will need it later.**
 
+<img src="https://imgur.com/68J2Z6t.png" width="80%" style='padding-top: 10px'>  
 ![](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/personal-token.png)
 
 #### 2. Create GitHub repository
@@ -125,4 +126,6 @@ It remains to add the application to the Ecosystem.
 
 Let's take a look at the results of our efforts. Done!
 
--demo .gif / video [part 1] [created]-
+<a data-key="sly-embeded-video-link" href="https://youtu.be/yHV4pUhO1DQ" data-video-code="yHV4pUhO1DQ">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>

@@ -76,4 +76,7 @@ def start_timer(api: sly.Api, task_id, context, state, app_logger):
 
 Let's run the app and take a look at our improved timer!
 
-`gif run app and show timer works`
+
+<a data-key="sly-embeded-video-link" href="https://youtu.be/W-598G9BH4Y" data-video-code="W-598G9BH4Y">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>

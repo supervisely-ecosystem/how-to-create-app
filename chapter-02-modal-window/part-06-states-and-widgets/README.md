@@ -93,4 +93,6 @@ sly_logger.warning(f'The timer has rang! DZZZZ')
 ---
 ### Step 4 — Results
 
--here will be gif/video with results-
+<a data-key="sly-embeded-video-link" href="https://youtu.be/Y8eR4XRD9AM" data-video-code="Y8eR4XRD9AM">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>

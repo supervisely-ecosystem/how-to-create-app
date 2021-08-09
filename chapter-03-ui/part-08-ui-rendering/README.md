@@ -131,4 +131,6 @@ LOG_LEVEL="debug"
 
 ### Step 4 — Results
 
-`gif run app and look at while true script results`
+<a data-key="sly-embeded-video-link" href="https://youtu.be/bUaAbjJbRh4" data-video-code="bUaAbjJbRh4">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>

@@ -65,10 +65,7 @@ except Exception as ex:
 
 Let's add our application to Supervisely and check the results.
 
-<p align="left">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P-YLiWrvCsU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
 
-- title: What is GitHub?
-  description: After watching this video, close the first issue in your repository.
-  video: https://youtube.com/embed/w3jLJU7DT5E
+<a data-key="sly-embeded-video-link" href="https://youtu.be/P-YLiWrvCsU" data-video-code="P-YLiWrvCsU">
+    <img src="github-link-here" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>
