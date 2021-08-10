@@ -56,7 +56,7 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ### 2. Hyper-Quickstart guide  
 
-<a data-key="sly-embeded-video-link" href="https://youtu.be/Y8eR4XRD9AM" data-video-code="Y8eR4XRD9AM">
+<a data-key="sly-embeded-video-link" href="https://youtu.be/DwSLTCzhjzY" data-video-code="DwSLTCzhjzY">
     <img src="https://imgur.com/4Xi4rKA.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
 
