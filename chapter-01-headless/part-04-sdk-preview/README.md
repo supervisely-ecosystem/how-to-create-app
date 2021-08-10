@@ -58,7 +58,7 @@ AGENT_TOKEN= # ???
 
 Let's write a simple script that:
 
-1. loads the project
+1. downloads the project
 2. retrieves annotations
 3. counts the number of lemons
 
