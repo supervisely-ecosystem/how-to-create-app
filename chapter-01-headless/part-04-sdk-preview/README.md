@@ -11,7 +11,7 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 
 1. <a href="#step-1--clone-lemons-annotated-project-from-ecosystem">Clone Lemons (Annotated) project from Ecosystem</a>
 2. <a href="#step-2--environments-files">Environments files</a>
-3. <a href="#step-3--python-script">Python script</a>
+3. <a href="#step-3--python-script">Python script && Results</a>
 4. <a href="#step-4--complete-sdk-documentation">Complete SDK documentation</a>
 
 
@@ -54,7 +54,7 @@ AGENT_TOKEN= # ???
 
 
 ---
-### Step 3 — Python script
+### Step 3 — Python script && Results
 
 Let's write a simple script that:
 
