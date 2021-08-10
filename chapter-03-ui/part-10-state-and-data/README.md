@@ -1,9 +1,6 @@
 
-<div align="left" markdown>
-
 ## **Part 10 — State and Data [Mutable Fields]**  
-<br/>
-</div>  
+
 
 In this part, you will learn how to change the values of state and data fields.  
 And how they can be used in the application.
