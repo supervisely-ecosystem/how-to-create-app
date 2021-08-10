@@ -54,8 +54,14 @@ Applications in Supervisely are key to solving highly specialized Computer Visio
 This guide is designed to help a Python programmer develop, debug, and integrate applications to Supervisely.
 
 
+### 3. Hyper-Quickstart guide  
 
-### 2. Quickstart guide  
+<a data-key="sly-embeded-video-link" href="https://youtu.be/Y8eR4XRD9AM" data-video-code="Y8eR4XRD9AM">
+    <img src="https://imgur.com/4Xi4rKA.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+</a>
+
+
+### 3. Quickstart guide  
 
 ---
 
