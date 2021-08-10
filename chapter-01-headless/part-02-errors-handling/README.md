@@ -69,8 +69,6 @@ except Exception as ex:
 ### Step 3 — Results
 
 
-Viewing the log in task output.
-
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/MMcNsW3wI_I" data-video-code="MMcNsW3wI_I">
     <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-02-errors-handling/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
