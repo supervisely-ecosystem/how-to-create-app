@@ -26,11 +26,11 @@ It is enough to add the desired element to the HTML file.
 **Example:**
 ```HTML
 <div>
-    <div>
+	<div>
 		<el-button type="success">Success</el-button>
-        <el-button type="warning">Warning</el-button>
-        <el-button type="danger">Danger</el-button>
-        <el-button type="info">Info</el-button>
+        	<el-button type="warning">Warning</el-button>
+        	<el-button type="danger">Danger</el-button>
+        	<el-button type="info">Info</el-button>
 	</div>
 	<hr/>
 	<div>
