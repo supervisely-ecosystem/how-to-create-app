@@ -17,7 +17,7 @@ In this part, you will learn how you can customize HTML in your application.
 ---
 ### Step 1 — Element widgets, again
 
-Remember the Part 6 [Element widgets](https://element.eleme.io/1.4/#/en-US/component/button)?  
+Remember the [Part 6 Element widgets](https://github.com/supervisely-ecosystem/how-to-create-app/tree/master/chapter-02-modal-window/part-06-states-and-widgets#step-2--element-widgets)?  
 We can use elements from [Element](https://element.eleme.io/1.4/#/en-US/component/button) when creating applications with UI.  
 It is enough to add the desired element to the HTML file.
 
