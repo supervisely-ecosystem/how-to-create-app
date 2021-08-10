@@ -3,9 +3,14 @@
 </div>
 
 
-In this part, we will show you how you can turn any Python code into a Supervisely application.
+In this part, we will show you how you can turn any Python code into a Supervisely application:
 
-1. <a href="#step-1--python-code">Step 1 — Python code</a>
+1. <a href="#step-1--python-code">Python code</a>
+2. <a href="#step-2--configuration-file">Configuration file</a>
+3. <a href="#step-3--repository-setup">Repository setup</a>
+4. <a href="#step-4--add-app-to-supervisely">Add app to Supervisely</a>
+5. <a href="#step-5--results">Results</a>
+
 
 ---
 
@@ -127,7 +132,7 @@ It remains to add the application to the Ecosystem.
 
 
 ---
-### Step 5 — Run our app and check output!
+### Step 5 — Results
 
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/P-YLiWrvCsU" data-video-code="P-YLiWrvCsU">  
