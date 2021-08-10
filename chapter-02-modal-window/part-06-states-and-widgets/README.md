@@ -9,6 +9,13 @@
 In this section, we will customize the modal window.  
 We will use a modal window to enter arguments.
 
+
+1. <a href="#step-1--about-states">About states</a>
+2. <a href="#step-2--element-widgets">Element widgets</a>
+3. <a href="#step-3--blind-it-all-together">Blind it all together</a>
+4. <a href="#step-4--results">Results</a>
+
+
 ---
 ### Step 1 — About states
 
