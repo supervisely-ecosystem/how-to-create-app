@@ -2,18 +2,23 @@
 <div align="left" markdown>
 
 ## **Part 11 — Styling your app [Customizing the UI]**  
-<br/>
+
 </div>  
 
 
 In this part, you will learn how you can customize HTML in your application.  
 **We will use [our Application Designer](https://app.supervise.ly/apps/designer) to preview the HTML files.**
 
+
+1. <a href="#step-1--elements-widgets-again">Elements widgets, again</a>
+2. <a href="#step-2--html-styles">HTML Styles</a>
+3. <a href="#step-3--elements-properties-disabling-hiding-loading-iterating">Elements properties (Disabling, Hiding, Loading, Iterating)</a>
+
 ---
 ### Step 1 — Elements widgets, again
 
-Remember the Part 6 Elements widgets?  
-We can use elements from Element when creating applications with UI.  
+Remember the Part 6 [Elements widgets](https://element.eleme.io/1.4/#/en-US/component/button)?  
+We can use elements from [Element](https://element.eleme.io/1.4/#/en-US/component/button) when creating applications with UI.  
 It is enough to add the desired element to the HTML file.
 
 ⚠️ Don't forget to initialize `state` so the buttons work properly
