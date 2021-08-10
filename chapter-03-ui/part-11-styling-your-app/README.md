@@ -10,14 +10,14 @@ In this part, you will learn how you can customize HTML in your application.
 **We will use [our Application Designer](https://app.supervise.ly/apps/designer) to preview the HTML files.**
 
 
-1. <a href="#step-1--elements-widgets-again">Elements widgets, again</a>
+1. <a href="#step-1--element-widgets-again">Element widgets, again</a>
 2. <a href="#step-2--html-styles">HTML Styles</a>
 3. <a href="#step-3--elements-properties-disabling-hiding-loading-iterating">Elements properties (Disabling, Hiding, Loading, Iterating)</a>
 
 ---
-### Step 1 — Elements widgets, again
+### Step 1 — Element widgets, again
 
-Remember the Part 6 [Elements widgets](https://element.eleme.io/1.4/#/en-US/component/button)?  
+Remember the Part 6 [Element widgets](https://element.eleme.io/1.4/#/en-US/component/button)?  
 We can use elements from [Element](https://element.eleme.io/1.4/#/en-US/component/button) when creating applications with UI.  
 It is enough to add the desired element to the HTML file.
 
