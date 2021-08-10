@@ -6,6 +6,12 @@
 
 In this part, we will work with bugs. We will catch them.
 
+1. <a href="#step-1--supervisely-logger">Supervisely logger</a>
+2. <a href="#step-2--use-try-except-with-traceback">Use [try: except] with traceback</a>
+3. <a href="#step-3--results">Results</a>
+
+
+
 ---
 ### Step 1 — Supervisely logger
 
@@ -60,10 +66,10 @@ except Exception as ex:
 
 
 ---
-### Step 3 — Viewing the log in task output
+### Step 3 — Results
 
 
-Let's add our application to Supervisely and check the results.
+Viewing the log in task output.
 
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/MMcNsW3wI_I" data-video-code="MMcNsW3wI_I">
