@@ -106,14 +106,14 @@ They can be changed.
 ```HTML
 <div>
 	<hr/>  <!-- disabling property -->
-    <el-button type="success" :disabled="true">i'm disabled</el-button>
+    		<el-button type="success" :disabled="true">i'm disabled</el-button>
 
 	<hr/> <!-- hiding(v-if) property -->
-	<el-button type="success" v-if="false">i'm hidden</el-button>
-	<el-button type="success" v-if="true">i'm not hidden</el-button>
+		<el-button type="success" v-if="false">i'm hidden</el-button>
+		<el-button type="success" v-if="true">i'm not hidden</el-button>
 
 	<hr/> <!-- loading property -->
-	<el-button type="success" :loading="true">i'm loading</el-button>
+		<el-button type="success" :loading="true">i'm loading</el-button>
 
 	<hr/> <!-- iterating property -->
 	<!--
@@ -128,7 +128,7 @@ They can be changed.
 	-->
 
 	<div v-for="v,k in data.simpleData" style="word-break: break-all;">
-    	<b>{{k}}</b>: <span>{{v}}</span>
+    		<b>{{k}}</b>: <span>{{v}}</span>
 	</div>
 </div>
 
