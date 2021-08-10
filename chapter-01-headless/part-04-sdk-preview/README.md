@@ -15,6 +15,8 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 4. <a href="#step-4--complete-sdk-documentation">Complete SDK documentation</a>
 
 
+<a href="http://example.com/" target="_blank">Hello, world!</a>
+
 ---
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
 
