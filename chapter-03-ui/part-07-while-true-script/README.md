@@ -9,6 +9,12 @@ In this part we will understand what a While True Script is.
 And why you need it.
 
 
+1. <a href="#step-1--about-while-true-script">About While True Script</a>
+2. <a href="#step-2--add-from-ecosystem--run">Add from Ecosystem && Run</a>
+3. <a href="#step-3--results">Results</a>
+
+
+
 ---
 ### Step 1 — About While True Script
 
