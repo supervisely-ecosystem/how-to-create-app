@@ -8,6 +8,12 @@
 In this part, you will learn how to change the values of state and data fields.  
 And how they can be used in the application.
 
+
+1. <a href="#step-1--mutable-state--data-fields">Mutable state && data fields</a>
+2. <a href="#step-2--get--set-field">GET && SET field</a>
+3. <a href="#step-3--results">Results</a>
+
+
 ---
 ### Step 1 — Mutable state && data fields
 
