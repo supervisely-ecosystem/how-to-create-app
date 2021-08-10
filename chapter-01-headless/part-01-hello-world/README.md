@@ -5,6 +5,8 @@
 
 In this part, we will show you how you can turn any Python code into a Supervisely application.
 
+1. <a href="###Step 1 — Python code">Step 1 — Python code</a>
+
 ---
 
 ### Step 1 — Python code
