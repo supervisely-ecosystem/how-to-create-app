@@ -2,7 +2,6 @@
 <div align="left" markdown>
 
 ## **Part 9 — APP Handlers [Handle Events and Errors]**  
-<br/>
 </div>  
 
 In this part, we will introduce you to app handlers and tell you what they are for.
