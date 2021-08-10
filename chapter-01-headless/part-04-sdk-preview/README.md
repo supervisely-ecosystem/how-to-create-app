@@ -49,7 +49,7 @@ LOG_LEVEL="debug"
 
 SERVER_ADDRESS="https://app.supervise.ly/"
 API_TOKEN=""  # get it in https://app.supervise.ly/user/settings/tokens
-AGENT_TOKEN= # ???
+AGENT_TOKEN= # get it in https://app.supervise.ly/nodes/list
 ```
 
 
