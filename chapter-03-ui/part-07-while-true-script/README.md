@@ -2,7 +2,6 @@
 <div align="left" markdown>
 
 ## **Part 7 — While True Script [It's all what you need]**  
-<br/>
 </div>  
 
 In this part we will understand what a While True Script is.  
