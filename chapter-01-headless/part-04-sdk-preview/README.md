@@ -18,7 +18,7 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 ---
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
 
-Clone [Lemons (Annotated)](https://app.supervise.ly/ecosystem/projects/lemons-annotated) project from Ecosystem to your Workspace
+Clone <a href="https://app.supervise.ly/ecosystem/projects/lemons-annotated" target="_blank">Lemons (Annotated)</a> project from Ecosystem to your Workspace
 
 ---
 ### Step 2 — Environments files
