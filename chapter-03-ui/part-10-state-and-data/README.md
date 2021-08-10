@@ -29,7 +29,7 @@ For these purposes, we have `two types of fields` available:
 1. **state** — for storing lightweight values
 2. **data** — for storing heavyweight values
 
-⚠️ In order to use mutable fields while the application is running:  
+**⚠️ In order to use mutable fields while the application is running:**  
 1. All required fields must be initialized before calling `app.run`
 2. Fields keys must be written in `CamelCase` register
 3. `data` fields can't read the values of widgets,  
