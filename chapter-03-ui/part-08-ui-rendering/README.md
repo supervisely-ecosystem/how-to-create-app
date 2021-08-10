@@ -7,6 +7,13 @@
 
 In this part, you will learn to create a basic UI application.
 
+
+1. <a href="#step-1--html-file">HTML file</a>
+2. <a href="#step-2--python-script">Python file</a>
+3. <a href="#step-3--updating-debugenv--configjson">Updating debug.env && config.json</a>
+4. <a href="#step-4--results">Results</a>
+
+
 ---
 ### Step 1 — HTML file
 
