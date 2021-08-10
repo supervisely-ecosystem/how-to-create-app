@@ -86,7 +86,7 @@ if __name__ == "__main__":
 ---
 ### Step 3 — Updating debug.env && config.json
 
-1. Write `TASK_ID` While True Script from [part 7] to `debug.env`  
+1. Write `TASK_ID` While True Script from [Part 7](https://github.com/supervisely-ecosystem/how-to-create-app/tree/master/chapter-03-ui/part-07-while-true-script#step-3--results) to `debug.env`  
 We also need to specify the path along which our application can cache debugging data
 `DEBUG_APP_DIR` and `DEBUG_CACHE_DIR`
 
@@ -104,7 +104,6 @@ DEBUG_APP_DIR="/home/user/app_debug_data/"
 DEBUG_CACHE_DIR="/home/user/app_debug_cache/"
 
 LOG_LEVEL="debug"
-
 ```
 <br/>  
 
