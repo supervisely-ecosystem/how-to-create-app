@@ -7,6 +7,12 @@
 
 In this part, we will introduce you to app handlers and tell you what they are for.
 
+
+1. <a href="#step-1--handle-html-events">Handle HTML events</a>
+2. <a href="#step-2--dialog-window-instead-of-an-error">Dialog window instead of an error</a>
+3. <a href="#step-3--results">Results</a>
+
+
 ---
 ### Step 1 — Handle HTML events
 
