@@ -15,6 +15,10 @@ In this part, we will create a basic application with modal window.
 We will use the modal window as an **information board**.
 
 
+1. <a href="#step-1--html-file">HTML file</a>
+2. <a href="#step-2--results">Results</a>
+
+
 ---
 ### Step 1 — HTML file
 
