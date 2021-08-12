@@ -130,7 +130,7 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="center" markdown>
 
-### Chapter 4 — Additionals
+### Chapter 4 — Additionals (In develop)
 
 </div>
 
