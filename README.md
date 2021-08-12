@@ -124,3 +124,16 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 ### [Part 10 — State and Data [Mutable Fields]](chapter-03-ui/part-10-state-and-data/)
 
 ### [Part 11 — Styling your app [Customizing the UI]](chapter-03-ui/part-11-styling-your-app/)
+
+
+---
+
+<div align="center" markdown>
+
+### Chapter 4 — Additionals
+
+</div>
+
+---
+
+### [Part 12 — Remote Developing with Docker]()
