@@ -109,11 +109,13 @@ Use the command:
 sudo apt-get remove docker docker-engine docker.io
 ```
 
-##### Step 3 - Install Docker on Ubuntu 18.04
+##### Step 3 - Install Docker on Ubuntu
 To install Docker on Ubuntu, in the terminal window enter the command:
 ```commandline
 sudo apt install docker.io
 ```
+
+**Note:** Use **Option 2** if it doesn't work for you.
 
 ##### Step 4 - Start and Automate Docker
 The Docker service needs to be setup to run at startup. To do so, type in each command followed by enter:
@@ -184,7 +186,6 @@ A stable release is tested and confirmed to work, but updates are released less 
 Update the repositories you just added:
 ```commandline
 sudo apt-get update
-
 ```
 
 ##### Step 6 - Install Latest Version of Docker
@@ -415,7 +416,6 @@ You can **change the default port** (generally a good idea, as a precautionary s
 3. Then replace “gedit ” with “nano” type in the command:
    ```commandline
    sudo nano /etc/ssh/sshd_config
-   
    ```
 
 4. Now that you have opened the file (using any of the text editors recommended above) find and make any necessary changes.
@@ -439,3 +439,5 @@ Some firewalls may require allowing traffic to the public IP address of the mach
 
 ---
 ### Step 5 - Connect to SSH server from PyCharm
+
+#ssh paul@192.168.1.252
