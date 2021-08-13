@@ -241,7 +241,7 @@ The first thing you need to do is to create a directory in which you can store a
    ```dockerfile
    FROM ubuntu
    
-   MAINTAINER sofija
+   MAINTAINER username
    
    RUN apt-get update
    
