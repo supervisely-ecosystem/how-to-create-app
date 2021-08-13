@@ -90,7 +90,7 @@ The other one is a private key, which you will need to keep secure.
 The secure private key ensures that you are the only person who can encrypt the data that is decrypted by the public key.
 
 ---
-### Step 2 - Docker Image
+### Step 2 — Docker Image
 #### Step 2.1 - Install Docker
 #### Option 1 - Install Docker on Ubuntu Using Default Repositories
 ##### Step 1 - Update Software Repositories
@@ -304,7 +304,7 @@ The Hello World message should appear in the command line
 Using **Dockerfile is a simpler and faster way of building Docker image**. It automates the process by going through the script with all the commands for assembling an image.
 
 ---
-### Step 3 - Install SSH server inside Docker container
+### Step 3 — Install SSH server inside Docker container
 #### Step 3.1 - Copy Public Key to the Ubuntu Server
 First, get the IP address of the Ubuntu server you want to connect to.
 
@@ -393,7 +393,7 @@ ssh username@server_IP
 If everything works, we can continue to the next step.
 
 ---
-### Step 4 - Edit SSH Config
+### Step 4 — Edit SSH Config
 Edit Configuration File
 After successfully installing OpenSSH on Ubuntu, you can edit its configuration file.
 
@@ -438,6 +438,4 @@ Some firewalls may require allowing traffic to the public IP address of the mach
 **Note:** The **“p2222”** is the port number we have defined in the Configure SSH section. If you used the **default port 22**, then it is not necessary to put the port number.
 
 ---
-### Step 5 - Connect to SSH server from PyCharm
-
-#ssh paul@192.168.1.252
+### Step 5 — Connect to SSH server from PyCharm
