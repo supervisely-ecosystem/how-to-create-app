@@ -144,3 +144,6 @@ result img
 
 ---
 ### Step 5 — Connect to SSH server from PyCharm
+
+
+#### RUN ALL COMMANDS FROM docker dir

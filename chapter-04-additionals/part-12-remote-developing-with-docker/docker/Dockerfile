@@ -13,7 +13,7 @@ COPY authorized_keys $home/.ssh/authorized_keys
 RUN chown root:root $home/.ssh/authorized_keys && \
     chmod 600 $home/.ssh/authorized_keys
 
-COPY sshd_deamon.sh /sshd_deamon.sh
-RUN chmod 755 /sshd_deamon.sh
-CMD ["/sshd_deamon.sh"]
-ENTRYPOINT ["sh", "-c", "/sshd_deamon.sh"]
+COPY sshd_daemon.sh /sshd_daemon.sh
+RUN chmod 755 /sshd_daemon.sh
+CMD ["/sshd_daemon.sh"]
+ENTRYPOINT ["sh", "-c", "/sshd_daemon.sh"]
