@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  remote_dev_service:
+    shm_size: '8gb'
+    runtime: nvidia
+    build:
+      context: .
+      args:
+        IMAGE: nvidia/cuda:11.1.1-devel-ubuntu18.04
+    ports:
+      - "1234:22"
+    volumes:
+      - "./data:/data"
