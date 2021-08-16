@@ -9,7 +9,7 @@ RUN mkdir -p /run/sshd
 
 ARG home=/root
 RUN mkdir $home/.ssh
-COPY authorized_keys $home/.ssh/authorized_keys
+COPY my_key.pub $home/.ssh/authorized_keys
 RUN chown root:root $home/.ssh/authorized_keys && \
     chmod 600 $home/.ssh/authorized_keys
 
