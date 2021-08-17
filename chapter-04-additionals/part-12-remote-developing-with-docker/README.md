@@ -36,6 +36,7 @@ To generate a pair of SSH key codes, enter the command:
 ```commandline
 ssh-keygen -t rsa -b 4096 -f my_key
 ```
+
 Files `my_key` and `my_key.pub` will be created in the docker directory.
 
 If you’ve already generated a key pair, this will prompt to overwrite them, and those old keys will not work anymore.
