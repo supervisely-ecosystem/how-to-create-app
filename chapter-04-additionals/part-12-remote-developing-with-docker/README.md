@@ -40,9 +40,6 @@ Files `my_key` and `my_key.pub` will be created in the docker directory.
 
 If you’ve already generated a key pair, this will prompt to overwrite them, and those old keys will not work anymore.
 
-<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/generate-keys.png" width="80%" style='padding-top: 10px'>  
-
-
 ---
 ### Step 2 — Docker Image
 
