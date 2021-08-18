@@ -132,10 +132,10 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="center" markdown>
 
-### Chapter 4 — Additionals **(In develop 🧑🏼‍💻)**
+### Chapter 4 — Additionals
 
 </div>
 
 ---
 
-### [Part 1 — Remote Developing with Docker](#)
+### [Part 1 — Remote Developing with Docker](#) **(In develop 🧑🏼‍💻)**
