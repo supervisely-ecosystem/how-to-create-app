@@ -83,12 +83,11 @@ Select "repo" access scope and click "Generate token" button.
 
 #### 2. Create GitHub repository
 
-Let's create a new GitHub repository that we will use to deploy a new Supervisely application.  Create a [new private GitHub repository](https://github.com/new): do not forget to choose "Private" visibility option.
+Let's create a new GitHub repository that we will use to deploy a new Supervisely application.  Create a [new private GitHub repository](https://github.com/new): 
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/new-repo.png" width="80%" style='padding-top: 10px'>  
 
 
-You can create a public repositry alright — you will still need a personal token and further steps are gonna be the same.
 
 
 #### 3. Push app to repository
@@ -96,7 +95,6 @@ You can create a public repositry alright — you will still need a personal tok
 Make sure you have collected all the required files:
 - `src/main.py`
 - `config.json`
-- `README.md` (optional)
 
 Then just push files to git:
 ```git
