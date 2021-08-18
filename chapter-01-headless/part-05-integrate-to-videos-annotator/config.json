@@ -7,10 +7,10 @@
   ],
   "description": "serve and use in videos annotator",
   "docker_image": "supervisely/base-py-sdk:6.1.94",
-  "main_script": "src/main.py",
+  "main_script": "chapter-01-headless/part-05-integrate-to-videos-annotator/src/main.py",
 
   "task_location": "application_sessions",
-  "icon": "https://i.imgur.com/YJq4bFw.png",
+  "icon": "https://img.icons8.com/color/100/000000/5.png",
   "icon_cover": true,
   "isolate": true,
   "headless": true,
