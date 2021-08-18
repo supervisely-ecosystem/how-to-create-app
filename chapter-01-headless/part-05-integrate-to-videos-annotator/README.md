@@ -39,8 +39,40 @@ In this part, we will integrate our own tracker (**Apps**).
 
 
 ---
-### Step 3 —
+### Step 3 — Creating the APP
+
+#### 1. Add session tag to config
+
+In order for the video annotator to see our application, we link it through the **sessions tags** space. Only through the `sly_video_tracking` tag will Videos Annotator see our application. So:
+
+**config.json (partially)**
+
+```json
+"session_tags": [
+  "sly_video_tracking"
+]
+
+```
+
+#### 2. Handle track command
+
+How to handle commands — [see here](https://github.com/supervisely-ecosystem/how-to-create-app/tree/master/chapter-03-ui/part-03-app-handlers#step-1--handle-html-events).  
+The most important thing is to write a handler for the **track command**.
+
+**src/main.py (partially)**
+
+```python
+@g.my_app.callback("track")
+@sly.timeit
+@send_error_data
+def track(api: sly.Api, task_id, context, state, app_logger):
+    tracker = TrackerContainer(context)
+    tracker.track()
+
+```
 
 
 ---
-### Step 4 —
+### Step 4 — Results
+
+`in develop 🧑🏼‍💻`
