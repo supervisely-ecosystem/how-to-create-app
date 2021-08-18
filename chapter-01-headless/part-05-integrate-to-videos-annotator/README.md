@@ -79,5 +79,5 @@ The OpenCV tracker logic is described [here](https://github.com/supervisely-ecos
 ### Step 4 — Results
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/wtifCqfWY1g" data-video-code="wtifCqfWY1g">  
-    <img src="" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">  
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/4-1.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">  
 </a>
