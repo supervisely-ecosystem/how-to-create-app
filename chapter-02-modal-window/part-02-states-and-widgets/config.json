@@ -1,0 +1,17 @@
+{
+  "name": "States and Widgets",
+  "type": "app",
+  "categories": [
+    "quickstart"
+  ],
+  "modal_template_state": {
+    "timerValue": "10"
+  },
+  "description": "There will be some description",
+  "docker_image": "supervisely/base-py-sdk:6.1.93",
+  "main_script": "chapter-02-modal-window/part-02-states-and-widgets/src/main.py",
+  "modal_template": "chapter-02-modal-window/part-02-states-and-widgets/src/modal.html",
+  "task_location": "workspace_tasks",
+  "icon": "https://img.icons8.com/color/100/000000/2.png",
+  "icon_background": "#FFFFFF"
+}

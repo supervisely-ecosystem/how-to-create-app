@@ -1,0 +1,14 @@
+<div>
+    <div>
+        Time left: {{data.timeLeft}}
+    </div>
+    <hr/>
+    <el-input-number v-model="state.timerValue"
+                     :min="1" :max="60">
+    </el-input-number>
+    <el-button
+			type="info"
+            @click="command('start_timer')">
+        start
+    </el-button>
+</div>
