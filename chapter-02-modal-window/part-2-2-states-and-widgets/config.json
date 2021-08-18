@@ -9,8 +9,8 @@
   },
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",
-  "main_script": "chapter-02-modal-window/part-06-states-and-widgets/src/main.py",
-  "modal_template": "chapter-02-modal-window/part-06-states-and-widgets/src/modal.html",
+  "main_script": "chapter-02-modal-window/part-2-2-states-and-widgets/src/main.py",
+  "modal_template": "chapter-02-modal-window/part-2-2-states-and-widgets/src/modal.html",
   "task_location": "workspace_tasks",
   "icon": "https://img.icons8.com/color/100/000000/6.png",
   "icon_background": "#FFFFFF"
