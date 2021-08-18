@@ -28,11 +28,11 @@ To launch the Annotator, click on the videos dataset. Done!
 ---
 ### Step 2 — Trackers
 
-Supervisely has **two types** of trackers:
+Supervisely has **two types** of tracking algorithms:
 1. **Predefined**
 2. **Apps**
 
-They become available when you select the marked object.
+They become available when you select the marked object.  
 In this part, we will integrate our own tracker (**Apps**).
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/2-1.png" width="80%" style='padding-top: 10px'>  
@@ -43,7 +43,8 @@ In this part, we will integrate our own tracker (**Apps**).
 
 #### 1. Add session tag to config
 
-In order for the video annotator to see our application, we link it through the **sessions tags** space. Only through the `sly_video_tracking` tag will Videos Annotator see our application. So:
+In order for the video annotator to see our application, we link it through the **sessions tags** space.  
+Only through the `sly_video_tracking` tag will Videos Annotator see our application. So:
 
 **config.json (partially)**
 
@@ -71,8 +72,8 @@ def track(api: sly.Api, task_id, context, state, app_logger):
 
 ```
 
-The OpenCV tracker logic is described [here](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/src/tracker.py#L42).  
-**You can replace it with your own code**.
+The OpenCV tracker logic is described [here](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/src/tracker.py#L42-L100).  
+**You can replace it with your own code (your own tracker)**.
 
 ---
 ### Step 4 — Results
