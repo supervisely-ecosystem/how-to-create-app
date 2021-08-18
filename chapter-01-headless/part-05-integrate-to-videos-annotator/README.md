@@ -43,7 +43,7 @@ In this part, we will integrate our own tracker (**Apps**).
 
 #### 1. Add session tag to config
 
-In order for the video annotator to see our application, we link it through the **sessions tags** space.  
+In order for the Videos Annotator to see our application, we link it through the **sessions tags** space.  
 ⚠️ Only through the `sly_video_tracking` tag will Videos Annotator see our application. So:
 
 **config.json (partially)**
