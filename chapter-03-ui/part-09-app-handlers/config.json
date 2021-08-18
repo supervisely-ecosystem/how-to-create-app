@@ -6,8 +6,8 @@
   ],
   "description": "There will be some description",
   "docker_image": "supervisely/base-py-sdk:6.1.93",
-  "main_script": "chapter-03-headless/part-3-3-app-handlers/src/main.py",
-  "gui_template": "chapter-03-headless/part-3-3-app-handlers/src/gui.html",
+  "main_script": "chapter-03-headless/part-09-app-handlers/src/main.py",
+  "gui_template": "chapter-03-headless/part-09-app-handlers/src/gui.html",
   "task_location": "workspace_tasks",
   "icon": "https://img.icons8.com/color/100/000000/9.png",
   "icon_background": "#FFFFFF"
