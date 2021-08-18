@@ -65,7 +65,7 @@ Now let's add it to our config file:
 
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/yHV4pUhO1DQ" data-video-code="yHV4pUhO1DQ">
-    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-02-modal-window/part-05-modal-window/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-02-modal-window/part-01-modal-window/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
 
 
