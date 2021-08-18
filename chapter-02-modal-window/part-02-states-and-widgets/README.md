@@ -1,7 +1,7 @@
 
 <div align="left" markdown>
 
-## **Part 6 — States and Widgets [Customize modal window]**  
+## **Part 2 — States and Widgets [Customize modal window]**  
 
 </div>  
 
@@ -101,5 +101,5 @@ sly_logger.warning(f'The timer has rang! DZZZZ')
 ### Step 4 — Results
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/Y8eR4XRD9AM" data-video-code="Y8eR4XRD9AM">
-    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-02-modal-window/part-06-states-and-widgets/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-02-modal-window/part-02-states-and-widgets/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>

@@ -1,7 +1,7 @@
 
 <div align="left" markdown>
 
-## **Part 9 — APP Handlers [Handle Events and Errors]**  
+## **Part 3 — APP Handlers [Handle Events and Errors]**  
 </div>  
 
 In this part, we will introduce you to app handlers and tell you what they are for.
@@ -69,5 +69,5 @@ def error_handler(api: sly.Api, task_id, context, state, app_logger):
 ### Step 3 — Results
 
 <a data-key="sly-embeded-video-link" href="https://youtu.be/U2XtONhiZaw" data-video-code="U2XtONhiZaw">
-    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-09-app-handlers/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
+    <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-03-ui/part-03-app-handlers/media/video-preview.png" alt="SLY_EMBEDED_VIDEO_LINK"  style="max-width:100%;">
 </a>
