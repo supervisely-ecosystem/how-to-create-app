@@ -32,7 +32,7 @@ Supervisely has **two types** of tracking algorithms:
 1. **Predefined** — our base tracking solutions
 2. **Apps** — custom tracking solutions
 
-They become available when you select the marked object.  
+They become available when you select the annotated object.  
 In this part, we will integrate our own tracker (**Apps**).
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/2-1.png" width="80%" style='padding-top: 10px'>  
