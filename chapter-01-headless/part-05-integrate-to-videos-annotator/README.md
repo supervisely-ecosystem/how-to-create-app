@@ -10,7 +10,7 @@ In this part, we will learn how to integrate **any tracker** into **Videos Annot
 
 1. <a href="#step-1--videos-annotator">Videos Annotator?</a>
 2. <a href="#step-2--trackers">Trackers</a>
-3. <a href="#step-3--"></a>
+3. <a href="#step-3--creating-the-app">Creating the APP</a>
 4. <a href="#step-4--"></a>
 
 
@@ -71,6 +71,8 @@ def track(api: sly.Api, task_id, context, state, app_logger):
 
 ```
 
+The OpenCV tracker logic is described [here](https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/src/tracker.py#L42).  
+**You can replace it with your own code**.
 
 ---
 ### Step 4 — Results
