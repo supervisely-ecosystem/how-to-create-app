@@ -97,9 +97,9 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="left" markdown>
 
-### [Part 1 — Modal window [What is it?]](chapter-02-modal-window/part-05-modal-window/)
+### [Part 1 — Modal window [What is it?]](chapter-02-modal-window/part-01-modal-window/)
 
-### [Part 2 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-06-states-and-widgets/)
+### [Part 2 — States and Widgets [Customize modal window]](chapter-02-modal-window/part-02-states-and-widgets/)
 
 <br/>
 
@@ -115,15 +115,15 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ---
 
-### [Part 1 — While True Script [It's all what you need]](chapter-03-ui/part-07-while-true-script/)
+### [Part 1 — While True Script [It's all what you need]](chapter-03-ui/part-01-while-true-script/)
 
-### [Part 2 — UI Rendering [Simplest Application]](chapter-03-ui/part-08-ui-rendering/)
+### [Part 2 — UI Rendering [Simplest Application]](chapter-03-ui/part-02-ui-rendering/)
 
-### [Part 3 — APP Handlers [Handle Events and Errors]](chapter-03-ui/part-09-app-handlers/)
+### [Part 3 — APP Handlers [Handle Events and Errors]](chapter-03-ui/part-03-app-handlers/)
 
-### [Part 4 — State and Data [Mutable Fields]](chapter-03-ui/part-10-state-and-data/)
+### [Part 4 — State and Data [Mutable Fields]](chapter-03-ui/part-04-state-and-data/)
 
-### [Part 5 — Styling your app [Customizing the UI]](chapter-03-ui/part-11-styling-your-app/)
+### [Part 5 — Styling your app [Customizing the UI]](chapter-03-ui/part-05-styling-your-app/)
 
 
 ---
