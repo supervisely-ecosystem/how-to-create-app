@@ -29,8 +29,8 @@ To launch the Videos Annotator, click on the videos dataset. Done!
 ### Step 2 — Trackers
 
 Supervisely has **two types** of tracking algorithms:
-1. **Predefined**
-2. **Apps**
+1. **Predefined** — our base tracking solutions
+2. **Apps** — custom tracking solutions
 
 They become available when you select the marked object.  
 In this part, we will integrate our own tracker (**Apps**).
