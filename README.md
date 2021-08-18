@@ -81,6 +81,8 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 ### [Part 3 — Site Packages [Customize your app]](chapter-01-headless/part-03-site-packages/)
 
 ### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-sdk-preview/)
+
+### [Part 5 — Integrate to Videos Annotator [OpenCV Tracker]](chapter-01-headless/part-05-integrate-to-videos-annotator)
 <br/>
 
 </div>
@@ -130,10 +132,10 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 <div align="center" markdown>
 
-### Chapter 4 — Additionals (In develop)
+### Chapter 4 — Additionals **(In develop 🧑🏼‍💻)**
 
 </div>
 
 ---
 
-### [Part 12 — Remote Developing with Docker]()
+### [Part 12 — Remote Developing with Docker](#)
