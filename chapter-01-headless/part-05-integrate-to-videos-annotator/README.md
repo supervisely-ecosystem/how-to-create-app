@@ -20,10 +20,10 @@ In this part, we will learn how to integrate **any tracker** into **Videos Annot
 Ok. This is the video annotation software available in Supervisely.  
 To launch the Annotator, click on the videos dataset. Done!
 
-<img src="" width="80%" style='padding-top: 10px'>   
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/1-1.png" width="80%" style='padding-top: 10px'>   
 
 ---   
-<img src="" width="80%" style='padding-top: 10px'>
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/1-2.png" width="80%" style='padding-top: 10px'>
 
 ---
 ### Step 2 — Trackers
@@ -35,7 +35,7 @@ Supervisely has **two types** of trackers:
 They become available when you select the marked object.
 In this part, we will integrate our own tracker (**Apps**).
 
-<img src="" width="80%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/2-1.png" width="80%" style='padding-top: 10px'>  
 
 
 ---
