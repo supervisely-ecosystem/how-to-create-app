@@ -15,7 +15,7 @@ In this part, you will learn how to start developing remotely via docker image. 
 5. <a href="#step-5--connect-to-ssh-server-from-pycharm">Connect to SSH server from PyCharm</a>
 
 
-### Step 1 - Create a separate folder
+### Step 1 — Create a separate folder
 The first thing you need to do is to create a directory in which you can store docker and ssh related files.
 
 As an example, we will create a directory named **docker** inside our project and move into that directory with the command:
