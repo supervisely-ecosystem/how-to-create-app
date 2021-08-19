@@ -8,28 +8,23 @@
 
 In this part, you will learn how to start developing remotely via docker image. We'll use **Ubuntu 18.04** as an example.
 
-1. <a href="#step-1--create-ssh-key">Create SSH key</a>
-2. <a href="#step-2--docker-image">Docker Image</a>
-3. <a href="#step-3--install-ssh-server-inside-docker-container">Install SSH server inside Docker container</a>
-4. <a href="#step-4--edit-ssh-config">Edit SSH Config</a>
+1. <a href="#step-1--create-a-separate-folder">Create a separate folder</a>
+2. <a href="#step-2--create-ssh-key">Create SSH key</a>
+3. <a href="#step-3--docker-image">Docker Image</a>
+4. <a href="#step-4--connect-to-ssh-server">Connect to SSH server</a>
 5. <a href="#step-5--connect-to-ssh-server-from-pycharm">Connect to SSH server from PyCharm</a>
 
 
-### Step 0 - Create a separate folder
+### Step 1 - Create a separate folder
 The first thing you need to do is to create a directory in which you can store docker and ssh related files.
 
-1. As an example, we will create a directory named **docker** inside our project with the command:
-   ```commandline
-   mkdir docker
-   ```
-
-2. Move into that directory and proceed to the next steps:
-   ```commandline
-   cd docker
-   ```
+As an example, we will create a directory named **docker** inside our project and move into that directory with the command:
+```commandline
+mkdir docker && cd docker
+```
 
 ---
-### Step 1 — Create SSH key
+### Step 2 — Create SSH key
 On your client system – the one you’re using to connect to the server – you need to create a pair of key codes.
 
 To generate a pair of SSH key codes, enter the command:
@@ -42,53 +37,71 @@ Files `my_key` and `my_key.pub` will be created in the docker directory.
 If you’ve already generated a key pair, this will prompt to overwrite them, and those old keys will not work anymore.
 
 ---
-### Step 2 — Docker Image
+### Step 3 — Docker Image
 
 You can use pre-configured `GPU` ready **Dockerfile** and **docker-compose.yml** from docker directory or create your own from scratch. 
 
-#### Step 2.1 — Create Dockerfile
-1. Create a new empty file (Dockerfile) in it by typing:
-   ```commandline
-   touch Dockerfile
-   ```
+#### Step 3.1 — Create Dockerfile
 
-2. Open the file with a text editor of your choice. In this example, we opened the file using Nano:
-   ```commandline
-   nano Dockerfile
-   ```
+A **Dockerfile** is a script with instructions on how to build a Docker image. 
+These instructions are, in fact, a group of commands executed automatically in the Docker environment to build a specific Docker image.
+This **Dockerfile** inherits **Ubuntu 18.04** image and launch SSH server via **sshd_daemon.sh**
 
-3. Write a Dockerfile that builds a Docker image. The image contains all the dependencies the Python application requires, including Python itself.
+**docker/sshd_daemon.sh**
+```shell
+#!/bin/bash -l
 
-4. Save and exit the file.
+echo $PATH
+/usr/sbin/sshd -D
+```
 
-5. You can check the content of the file by using the cat command:
-   ```commandline
-   cat Dockerfile
-   ```
+**docker/Dockerfile**
+```dockerfile
+ARG IMAGE
+FROM $IMAGE
+
+RUN apt-get update && apt-get install -y openssh-server
+EXPOSE 22
+
+RUN apt-get install -y sudo
+RUN mkdir -p /run/sshd
+
+ARG home=/root
+RUN mkdir $home/.ssh
+COPY my_key.pub $home/.ssh/authorized_keys
+RUN chown root:root $home/.ssh/authorized_keys && \
+    chmod 600 $home/.ssh/authorized_keys
+
+COPY sshd_daemon.sh /sshd_daemon.sh
+RUN chmod 755 /sshd_daemon.sh
+CMD ["/sshd_daemon.sh"]
+ENTRYPOINT ["sh", "-c", "/sshd_daemon.sh"]
+```
+
+
+#### Step 3.2 — Create docker-compose
+
+We prefer to use **Docker Compose**, but it's not a requirement. **Docker Compose** is yet another useful Docker tool. 
+It allows users to launch, execute, communicate, and close containers with a single coordinated command.
+
+**docker/docker-compose.yml**
+```dockerfile
+version: "2.2"
+services:
+  remote_dev_service:
+    shm_size: '8gb'
+    runtime: nvidia
+    build:
+      context: .
+      args:
+        IMAGE: nvidia/cuda:11.1.1-devel-ubuntu18.04
+    ports:
+      - "1234:22"
+    volumes:
+      - "./data:/data"
+```
    
-#### Step 2.2 — Create docker-compose
-
-1. **Create docker-compose.yml** file
-   ```commandline
-   touch docker-compose.yml
-   ```
-
-2. Open the file with a text editor of your choice. In this example, we opened the file using Nano:
-   ```commandline
-   nano docker-compose.yml
-   ```
-
-3. Define the services that make up your app in docker-compose.yml so they can be run together in an isolated environment.
-
-4. Save and exit the file.
-
-5. You can check the content of the file by using the cat command:
-   ```commandline
-   cat docker-compose.yml
-   ```
-   
----
-### Step 3 — Build Dockerfile
+#### Step 3.3 — Build Dockerfile
 
 Prerequisities:
 * [Install docker and nvidia-docker2](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
@@ -120,6 +133,17 @@ docker container list
 
 ---
 ### Step 4 — Connect to SSH server
+
+Optional. Add server with the ports specified in **docker-compose.yml**
+
+**~/.ssh/config**
+```commandline
+Host gpu1
+    HostName 192.168.1.10
+    User root
+    Port 1234
+    IdentityFile ~/.ssh/id_rsa
+```
 
 To connect to SSH server, use this command:
 ```commandline
