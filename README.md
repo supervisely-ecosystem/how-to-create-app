@@ -82,7 +82,7 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ### [Part 4 — SDK Preview [Lemons counter app]](chapter-01-headless/part-04-sdk-preview/)
 
-### [Part 5 — Integrate to Videos Annotator [OpenCV Tracker]](chapter-01-headless/part-05-integrate-to-videos-annotator)
+### [Part 5 — Integrate custom tracker into Videos Annotator tool [OpenCV Tracker]](chapter-01-headless/part-05-integrate-to-videos-annotator)
 <br/>
 
 </div>

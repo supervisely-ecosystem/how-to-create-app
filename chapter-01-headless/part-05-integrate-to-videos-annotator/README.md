@@ -1,7 +1,7 @@
 
 <div align="left" markdown>
 
-## **Part 5 — Integrate to Videos Annotator [OpenCV Tracker]**  
+## **Part 5 — Integrate custom tracker into Videos Annotator tool [OpenCV Tracker]**  
 
 </div>  
 
@@ -17,7 +17,7 @@ In this part, we will learn how to integrate **any tracker** into **Videos Annot
 ---
 ### Step 1 — Videos Annotator?
 
-Ok. This is the video annotation software available in Supervisely.  
+Ok. This is the video annotation tool available in Supervisely.  
 To launch the Videos Annotator, click on the videos dataset. Done!
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-05-integrate-to-videos-annotator/media/1-1.png" width="80%" style='padding-top: 10px'>   
