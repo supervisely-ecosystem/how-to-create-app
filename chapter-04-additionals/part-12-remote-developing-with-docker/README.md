@@ -111,7 +111,7 @@ The basic syntax used to build an image using a docker-compose is:
 docker-compose up --build -d
 ```
 
-<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/build-docker-compose.png" width="80%" style='padding-top: 10px'>
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/build-docker-compose.png" width="80%" style='padding-top: 10px'>
 
 Once the image is successfully built, you can verify whether it is on the list of images with the command:
 ```commandline
@@ -139,13 +139,13 @@ ssh -i ./my_key root@localhost -p 1234
    Go to **Tools** -> **Deployment** and select **Configuration**.
    Add new **SFTP** connection by pressing **+** icon in the top left corner of the window and name it.
    Press on the **3 dots** next to SSH configuration and configure it.
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/deployment-1.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/deployment-1.png" width="80%" style='padding-top: 10px'>
    
    Add new **SFTP** configuration by pressing **+** icon in the top left corner of the window and name it. Fill out the form and press **OK**.
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-configuration.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-configuration.png" width="80%" style='padding-top: 10px'>
    
    New configuration will be automatically selected in the deployment window. Press **OK** again.
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/deployment-2.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/deployment-2.png" width="80%" style='padding-top: 10px'>
 
 
 2. Configure interpreter
@@ -153,14 +153,14 @@ ssh -i ./my_key root@localhost -p 1234
    Go to **File** -> **Settings** -> **Project** and select **Python interpreter**.
    
    Click on the **Gear** icon and select **Add**, **Add python interpreter window** will pop up. Select **SSH interpreter** -> **Existing server configuration**
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-1.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-1.png" width="80%" style='padding-top: 10px'>
 
    Specify the path to the interpreter.
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-2.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-2.png" width="80%" style='padding-top: 10px'>
 
    And configure mapping between local paths and remote paths if needed.
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-3.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/ssh-interpreter-3.png" width="80%" style='padding-top: 10px'>
    
    Apply selected interpreter and run the script
-   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-12-remote-developing-with-docker/media/run-script.png" width="80%" style='padding-top: 10px'>
+   <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/develop-part12-V2/chapter-04-additionals/part-12-remote-developing-with-docker/media/run-script.png" width="80%" style='padding-top: 10px'>
    
