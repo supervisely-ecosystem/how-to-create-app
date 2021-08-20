@@ -1,12 +1,12 @@
 
 <div align="left" markdown>
 
-## **Part 1 — Remote Developing with Docker [PyCharm SSH Interpreter]**  
+## **Part 1 — Remote Developing with PyCharm [Docker SSH Server]**  
 
 </div>  
 
 
-In this part, you will learn how to start developing using Docker.  
+In this part, you will learn how to start developing using PyCharm and Docker.  
 
 1. <a href="#step-1--create-a-working-directory">Create a working directory</a>
 2. <a href="#step-2--create-ssh-key">Create SSH key</a>
