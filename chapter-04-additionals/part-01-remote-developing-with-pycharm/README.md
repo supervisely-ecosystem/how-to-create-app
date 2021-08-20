@@ -41,7 +41,7 @@ Files `my_key` and `my_key.pub` will be created in the docker directory.
 
 Let's create all the files necessary for building the container.
 
-#### Step 3.1 — Create Dockerfile
+#### 1. Create Dockerfile
 
 Let's create a simple image in which we will deploy the **SSH server**:
 
@@ -79,7 +79,7 @@ echo $PATH
 ```
 
 
-#### Step 3.2 — Create docker-compose
+#### 2. Create docker-compose
 
 Since we need a **GPU inside the container**, we will take **Image with** pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
 For convenience, let's create a **docker-compose** file:
@@ -101,7 +101,7 @@ services:
       - "./data:/data"
 ```
 
-#### Step 3.3 — Build container
+#### 3. Build container
 
 
 Don't forget to [install docker and nvidia-docker2](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
@@ -153,7 +153,7 @@ ssh docker_remote_container
 ---
 ### Step 5 — Connect to container in PyCharm
 
-1. Create new project
+#### 1. Create new project
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-1.png" width="100%" style='padding-top: 10px'>  
 
@@ -162,7 +162,7 @@ ssh docker_remote_container
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-2.png" width="100%" style='padding-top: 10px'>  
 
 
-2. Add new interpreter
+#### 2. Add new interpreter
 
 - **Open Preferences -> Python Interpreter**  
 - **Show all**  
@@ -173,7 +173,7 @@ ssh docker_remote_container
 ---
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-4.png" width="100%" style='padding-top: 10px'>  
 
-3. Configure interpreter
+#### 3. Configure interpreter
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-5.png" width="100%" style='padding-top: 10px'>  
 
@@ -181,6 +181,6 @@ ssh docker_remote_container
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-6.png" width="100%" style='padding-top: 10px'>  
 
-4. Run simple code
+#### 4. Run simple code
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/5-7.png" width="100%" style='padding-top: 10px'>  
