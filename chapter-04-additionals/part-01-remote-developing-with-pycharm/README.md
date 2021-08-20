@@ -11,8 +11,8 @@ In this part, you will learn how to start developing using PyCharm and Docker.
 1. <a href="#step-1--create-a-working-directory">Create a working directory</a>
 2. <a href="#step-2--create-ssh-key">Create SSH key</a>
 3. <a href="#step-3--docker-image">Docker Image</a>
-4. <a href="#step-4--connect-to-ssh-server">Connect to container over SSH</a>
-5. <a href="#step-5--Connect-to container in PyCharm">Connect to container in PyCharm</a>
+4. <a href="#step-4--Connect-to-container-over-SSH">Connect to container over SSH</a>
+5. <a href="#step-5--connect-to-container-in-PyCharm">Connect to container in PyCharm</a>
 
 
 ### Step 1 — Create a working directory
@@ -132,7 +132,7 @@ docker ps | grep grep remote_dev_service
 ```
 
 ---
-### Step 4 — Connect to SSH server
+### Step 4 — Connect to container over SSH
 
 Add server with the ports specified in **docker-compose.yml**
 
