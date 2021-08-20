@@ -34,7 +34,7 @@ ssh-keygen -t rsa -b 4096 -f my_key
 
 Files `my_key` and `my_key.pub` will be created in the docker directory.
 
-<img src="2-1.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/2-1.png" width="100%" style='padding-top: 10px'>  
 
 ---
 ### Step 3 — Docker Image
@@ -124,7 +124,7 @@ The basic syntax used to build an image using a docker-compose is:
 docker-compose up --build -d
 ```
 
-<img src="3-1.png" width="80%" style='padding-top: 10px'>
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/3-1.png" width="80%" style='padding-top: 10px'>
 
 Once the image is successfully built, you can verify whether it is on the list of containers with the command:
 ```commandline
@@ -155,11 +155,11 @@ ssh docker_remote_container
 
 1. Create new project
 
-<img src="5-1.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-1.png" width="100%" style='padding-top: 10px'>  
 
 ---
 
-<img src="5-2.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-2.png" width="100%" style='padding-top: 10px'>  
 
 
 2. Add new interpreter
@@ -168,19 +168,19 @@ ssh docker_remote_container
 - **Show all**  
 - **Plus button**
 
-<img src="5-3.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-3.png" width="100%" style='padding-top: 10px'>  
 
 ---
-<img src="5-4.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-4.png" width="100%" style='padding-top: 10px'>  
 
 3. Configure interpreter
 
-<img src="5-5.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-5.png" width="100%" style='padding-top: 10px'>  
 
  ---   
 
-<img src="5-6.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-6.png" width="100%" style='padding-top: 10px'>  
 
 4. Run simple code
 
-<img src="5-7.png" width="100%" style='padding-top: 10px'>  
+<img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-docker/media/5-7.png" width="100%" style='padding-top: 10px'>  
