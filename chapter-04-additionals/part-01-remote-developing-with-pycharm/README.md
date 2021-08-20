@@ -32,7 +32,7 @@ To generate a pair of SSH key codes, enter the command:
 ssh-keygen -t rsa -b 4096 -f my_key
 ```
 
-Files `my_key` and `my_key.pub` will be created in the docker directory.
+Files `my_key` and `my_key.pub` will be created in the working directory.
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/2-1.png" width="100%" style='padding-top: 10px'>  
 
