@@ -128,7 +128,7 @@ docker-compose up --build -d
 
 Once the image is successfully built, you can verify whether it is on the list of containers with the command:
 ```commandline
-docker ps | grep grep remote_dev_service
+docker ps | grep remote_dev_service
 ```
 
 ---
