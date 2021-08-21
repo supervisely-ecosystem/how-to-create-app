@@ -138,4 +138,4 @@ This guide is designed to help a Python programmer develop, debug, and integrate
 
 ---
 
-### [Part 1 — Remote Developing with Docker](https://github.com/supervisely-ecosystem/how-to-create-app/tree/master/chapter-04-additionals/part-01-remote-developing-with-pycharm)
+### [Part 1 — Remote Developing with PyCharm [Docker SSH Server]](https://github.com/supervisely-ecosystem/how-to-create-app/tree/master/chapter-04-additionals/part-01-remote-developing-with-pycharm)
