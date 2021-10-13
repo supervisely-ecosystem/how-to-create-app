@@ -85,7 +85,8 @@ echo $PATH
 
 #### 2. Create docker-compose
 
-For convenience, let's create a **docker-compose** file:
+For convenience, let's create a **docker-compose** file.
+
 Since we need a **GPU inside the container**, we will take **Image with** pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
 
 **remote_dev/docker-compose.yml**
@@ -148,12 +149,15 @@ Host docker_remote_container
     Port 1234
     IdentityFile path_to_ssh_secret_key
 ```
+
+```commandline
 Where:
     docker_remote_container - any name of your choice,
-    ip_of_your_docker_container - you can get it by use `hostname -i` on your remote host
-    root - unchange
-    1234 - unchange
-    path_to_ssh_secret_key - path to `my_key` on your local host(step 2)
+    ip_of_your_docker_container - you can get it by use `hostname -i` on your remote host,
+    root - unchange,
+    1234 - unchange,
+    path_to_ssh_secret_key - path to `my_key` on your local host(step 2).
+```
 
 To connect to container by SSH, use command:
 ```commandline
