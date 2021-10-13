@@ -16,8 +16,8 @@ In this part, you will learn how to start developing using PyCharm and Docker.
 
 
 ### Step 1 — Create a working directory
+Connect to the remote host on which you will deploy the docker container.
 The first thing you need to do is to create a directory in which you can store docker and ssh related files.
-
 As an example, we will create a directory named **remote_dev** inside our project and move into that directory with the command:
 ```commandline
 mkdir remote_dev && cd remote_dev
@@ -25,7 +25,7 @@ mkdir remote_dev && cd remote_dev
 
 ---
 ### Step 2 — Create SSH key
-On your client system – the one you’re using to connect to the server – you need to create a pair of key codes.
+You need to create a pair of key codes on your remote host with docker container.
 
 To generate a pair of SSH key codes, enter the command:
 ```commandline
@@ -33,6 +33,10 @@ ssh-keygen -t rsa -b 4096 -f my_key
 ```
 
 Files `my_key` and `my_key.pub` will be created in the working directory.
+Keys must be stored in 3 locations:
+1. `my_key.pub` on remote host with docker container.
+2. `my_key.pub` in created docker container.
+3. `my_key` on your local host (you need to copy it there). 
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/2-1.png" width="100%" style='padding-top: 10px'>  
 
@@ -49,7 +53,7 @@ Let's create a simple image in which we will deploy the **SSH server**:
 ```dockerfile
 ARG IMAGE
 FROM $IMAGE
-
+#Add your libs here...
 RUN apt-get update && apt-get install -y openssh-server
 EXPOSE 22
 
@@ -81,8 +85,8 @@ echo $PATH
 
 #### 2. Create docker-compose
 
-Since we need a **GPU inside the container**, we will take **Image with** pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
 For convenience, let's create a **docker-compose** file:
+Since we need a **GPU inside the container**, we will take **Image with** pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
 
 **remote_dev/docker-compose.yml**
 ```dockerfile
@@ -94,7 +98,7 @@ services:
     build:
       context: .
       args:
-        IMAGE: nvidia/cuda:11.1.1-devel-ubuntu18.04
+        IMAGE: `insert your IMAGE name here`
     ports:
       - "1234:22"
     volumes:
@@ -136,7 +140,7 @@ docker ps | grep remote_dev_service
 
 Add server with the ports specified in **docker-compose.yml**
 
-**~/.ssh/config** (example)
+**~/.ssh/config** (example)[local host]
 ```commandline
 Host docker_remote_container
     HostName ip_of_your_docker_container
@@ -144,6 +148,12 @@ Host docker_remote_container
     Port 1234
     IdentityFile path_to_ssh_secret_key
 ```
+Where:
+    docker_remote_container - any name of your choice,
+    ip_of_your_docker_container - you can get it by use `hostname -i` on your remote host
+    root - unchange
+    1234 - unchange
+    path_to_ssh_secret_key - path to `my_key` on your local host(step 2)
 
 To connect to container by SSH, use command:
 ```commandline
