@@ -16,44 +16,45 @@ In this part, you will learn how to start developing using PyCharm and Docker.
 
 
 ### Step 1 — Create a working directory
-Connect to the remote host on which you will deploy the docker container.
-The first thing you need to do is to create a directory in which you can store docker and ssh related files.
-As an example, we will create a directory named **remote_dev** inside our project and move into that directory with the command:
+The first thing you need to do is to connect to the remote host on which you will deploy the docker container.
+
+Once connected to the remote host, go to your project folder and create a directory to store docker and ssh related files there.
+As an example, we will create a directory named **remote_dev** inside our project on remote host and move into that directory with the command:
+
 ```commandline
 mkdir remote_dev && cd remote_dev
 ```
 
 ---
 ### Step 2 — Create SSH key
-You need to create a pair of key codes on your remote host with docker container.
+You need to create a pair of key codes on your remote host.
 
-To generate a pair of SSH key codes, enter the command:
+To generate a pair of SSH key codes, enter the command from the newly created directory **remote_dev**:
 ```commandline
 ssh-keygen -t rsa -b 4096 -f my_key
 ```
+where `my_key` is the filename where your generated key code will be stored.
 
-Files `my_key` and `my_key.pub` will be created in the working directory.
-Keys must be stored in 3 locations:
-1. `my_key.pub` on remote host with docker container.
-2. `my_key.pub` in created docker container.
-3. `my_key` on your local host (you need to copy it there). 
+Files `my_key` and `my_key.pub` will be created in the **remote_dev** directory.
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/2-1.png" width="100%" style='padding-top: 10px'>  
 
 ---
 ### Step 3 — Docker Image
 
-Let's create all the files necessary for building the container.
+Next step is about creating all the necessary files for building the container.
 
 #### 1. Create Dockerfile
 
-Let's create a simple image in which we will deploy the **SSH server**:
+In the example below we are creating a simple image with a gpu access, in which we will deploy the **SSH server**:
 
 **remote_dev/Dockerfile**
 ```dockerfile
 ARG IMAGE
 FROM $IMAGE
-#Add your libs here...
+
+# Add your commands here
+
 RUN apt-get update && apt-get install -y openssh-server
 EXPOSE 22
 
@@ -85,15 +86,17 @@ echo $PATH
 
 #### 2. Create docker-compose
 
-For convenience, let's create a **docker-compose** file.
 
-Since we need a **GPU inside the container**, we will take **Image with** pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
+Now we will create a **docker-compose** file for convenience.
+
+
+Since we need a **GPU inside the container**, we will use docker image with pre-installed **CUDA** as a basis and set runtime to **nvidia**.  
 
 **remote_dev/docker-compose.yml**
 ```dockerfile
 version: "2.2"
 services:
-  remote_dev_service:
+  remote_dev_service: 
     shm_size: '8gb'
     runtime: nvidia
     build:
@@ -105,6 +108,8 @@ services:
     volumes:
       - "./data:/data"
 ```
+
+Where **remote_dev_service** is the name of the docker container.
 
 #### 3. Build container
 
@@ -124,10 +129,12 @@ Don't forget to [install docker and nvidia-docker2](https://docs.nvidia.com/data
    sudo systemctl restart docker
    ```
 
-The basic syntax used to build an image using a docker-compose is:
+The basic syntax used to build an image using a **docker-compose** is:
 ```commandline
 docker-compose up --build -d
 ```
+
+Run this command from **remote-dev** directory
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-04-additionals/part-01-remote-developing-with-pycharm/media/3-1.png" width="80%" style='padding-top: 10px'>
 
@@ -135,13 +142,14 @@ Once the image is successfully built, you can verify whether it is on the list o
 ```commandline
 docker ps | grep remote_dev_service
 ```
+<img src="  docker ps | grep remote_dev_service  ">
 
----
+
 ### Step 4 — Connect to container over SSH
 
 Add server with the ports specified in **docker-compose.yml**
 
-**~/.ssh/config** (example)[local host]
+**~/.ssh/config**
 ```commandline
 Host docker_remote_container
     HostName ip_of_your_docker_container
@@ -153,11 +161,13 @@ Host docker_remote_container
 ```commandline
 Where:
     docker_remote_container - any name of your choice,
-    ip_of_your_docker_container - you can get it by use `hostname -i` on your remote host,
+    ip_of_your_docker_container - you can get it by using `hostname -i` command on your remote host,
     root - unchange,
     1234 - unchange,
-    path_to_ssh_secret_key - path to `my_key` on your local host(step 2).
+    path_to_ssh_secret_key - path to `my_key` file created in step 2
 ```
+
+Detailed guide for ssh config can be found [here](https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client).
 
 To connect to container by SSH, use command:
 ```commandline
