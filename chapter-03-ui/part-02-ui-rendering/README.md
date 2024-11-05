@@ -22,7 +22,7 @@ This is very similar to a modal window application.
 But now instead of a modal window — a **whole browser page**!
 
 
-📝 you can preview your HTML in [our Application Designer](https://app.supervise.ly/apps/designer)
+📝 you can preview your HTML in [our Application Designer](https://app.supervisely.com/apps/designer)
 
 Let's create some simple HTML:
 
