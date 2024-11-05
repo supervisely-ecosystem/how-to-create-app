@@ -18,7 +18,7 @@ We have a powerful SDK for this task. *Let's touch it gently?*
 ---
 ### Step 1 — Clone Lemons (Annotated) project from Ecosystem
 
-Clone <a href="https://app.supervise.ly/ecosystem/projects/lemons-annotated" target="_blank">Lemons (Annotated)</a> project from Ecosystem to your Workspace
+Clone <a href="https://app.supervisely.com/ecosystem/projects/lemons-annotated" target="_blank">Lemons (Annotated)</a> project from Ecosystem to your Workspace
 
 ---
 ### Step 2 — Environments files
@@ -47,9 +47,9 @@ LOG_LEVEL="debug"
 ```env
 # This file is used for example! After filling in your personal data, keep the file secret!
 
-SERVER_ADDRESS="https://app.supervise.ly/"
-API_TOKEN=""  # get it in https://app.supervise.ly/user/settings/tokens
-AGENT_TOKEN= # get it in https://app.supervise.ly/nodes/list
+SERVER_ADDRESS="https://app.supervisely.com/"
+API_TOKEN=""  # get it in https://app.supervisely.com/user/settings/tokens
+AGENT_TOKEN= # get it in https://app.supervisely.com/nodes/list
 ```
 
 
@@ -146,5 +146,5 @@ project_id=6157 contains 8 lemon(-s)
 ### Step 4 — Complete SDK documentation
 You can find more information here:
 
-* [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervise.ly/rst_templates/notebooks/notebooks.html)  
-* [Complete Python SDK](https://sdk.docs.supervise.ly/sdk_packages.html)
+* [Learn SDK Basics with IPython Notebooks](https://sdk.docs.supervisely.com/rst_templates/notebooks/notebooks.html)  
+* [Complete Python SDK](https://sdk.docs.supervisely.com/sdk_packages.html)
