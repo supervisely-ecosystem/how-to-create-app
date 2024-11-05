@@ -112,7 +112,7 @@ git push -u origin main
 We've almost reached the finish line!  
 It remains to add the application to the Ecosystem.
 
-#### 1. Go to the [Private Apps section](http://supervise.ly/ecosystem/private)
+#### 1. Go to the [Private Apps section](http://supervisely.com/ecosystem/private)
 
 <img src="https://github.com/supervisely-ecosystem/how-to-create-app/blob/master/chapter-01-headless/part-01-hello-world/media/private-apps-section.png" width="80%" style='padding-top: 10px'>  
 
