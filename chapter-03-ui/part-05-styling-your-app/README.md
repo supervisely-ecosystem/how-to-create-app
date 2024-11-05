@@ -7,7 +7,7 @@
 
 
 In this part, you will learn how you can customize HTML in your application.  
-**We will use [our Application Designer](https://app.supervise.ly/apps/designer) to preview the HTML files.**
+**We will use [our Application Designer](https://app.supervisely.com/apps/designer) to preview the HTML files.**
 
 
 1. <a href="#step-1--element-widgets-again">Element widgets, again</a>
