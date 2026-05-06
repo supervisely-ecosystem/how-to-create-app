@@ -1,12 +1,13 @@
 {
   "name": "Serve OpenCV",
   "type": "app",
+  "instance_version": "6.15.60",
   "categories": [
     "tracking",
     "video"
   ],
   "description": "serve and use in videos annotator",
-  "docker_image": "supervisely/base-py-sdk:6.1.94",
+  "docker_image": "supervisely/base-py-sdk:6.73.564",
   "main_script": "chapter-01-headless/part-05-integrate-to-videos-annotator/src/main.py",
 
   "task_location": "application_sessions",
