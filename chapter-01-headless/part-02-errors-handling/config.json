@@ -1,6 +1,7 @@
 {
   "name": "Error Handling",
   "type": "app",
+  "instance_version": "6.15.60",
   "categories": [
     "quickstart"
   ],
